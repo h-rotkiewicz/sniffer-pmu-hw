@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BQ40Z50RSMT-R2
+D 1-4 Series li-ion battery pack manager | battery fuel (gas) gauge
+K
+F http://www.ti.com/lit/gpn/BQ40Z50-R2
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,9 @@
+Manufacturer=Texas Instruments
+PartNumber=BQ40Z50RSMT-R2
+PartCategory=Integrated Circuit
+PackageCategory=Other
+PinCount=33
+Version=1.1
+Released=2019-05-31 10:52:44
+Downloaded=2025-11-15 14:55:27
+3D=Y

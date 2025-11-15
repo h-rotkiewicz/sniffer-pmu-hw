@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "BQ40Z50RSMT-R2")(type "KiCad")(uri "${KIPRJMOD}/Library/BQ40Z50RSMT-R2/BQ40Z50RSMT-R2.kicad_sym")(options "")(descr ""))
+  (lib (name "New_Library")(type "KiCad")(uri "${KIPRJMOD}/Library/LittleFuse/New_Library.kicad_sym")(options "")(descr ""))
+  (lib (name "ITV4030_LTF")(type "KiCad")(uri "${KIPRJMOD}/Library/ITV4030/ITV4030_LTF.kicad_sym")(options "")(descr ""))
+)
