@@ -707,6 +707,10 @@
     [
       "4aecb978-f220-4ec1-941b-1529b0b7b191",
       "bms"
+    ],
+    [
+      "bd1927ed-bc77-441c-bf79-4148b1af9afd",
+      "Charger"
     ]
   ],
   "text_variables": {}

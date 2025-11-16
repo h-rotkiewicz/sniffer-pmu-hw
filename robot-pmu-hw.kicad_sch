@@ -978,8 +978,8 @@
 		(uuid "f1bd3531-f1f8-4604-a0ff-4cdceebd6841")
 	)
 	(sheet
-		(at 113.792 192.024)
-		(size 27.432 25.4)
+		(at 83.82 193.675)
+		(size 27.305 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -994,7 +994,7 @@
 		)
 		(uuid "4aecb978-f220-4ec1-941b-1529b0b7b191")
 		(property "Sheetname" "bms"
-			(at 113.792 191.3124 0)
+			(at 83.82 192.9634 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1003,7 +1003,99 @@
 			)
 		)
 		(property "Sheetfile" "bms.kicad_sch"
-			(at 113.792 218.0086 0)
+			(at 83.82 219.6596 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "BTP_INT" input
+			(at 111.125 196.85 0)
+			(uuid "370b05d0-9552-4302-b10d-5a9e1ccb7016")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PACK+" input
+			(at 111.125 199.39 0)
+			(uuid "e90da264-fbf9-47c3-a495-877eeed5baad")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SMBC" input
+			(at 111.125 201.93 0)
+			(uuid "76ff0650-3f47-46bd-b936-746bd2fa01f6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SMBD" input
+			(at 111.125 204.47 0)
+			(uuid "fb7f58e0-7aeb-4340-978a-3058f682e5a2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{PRES_OR_}SHUTDN" input
+			(at 111.125 207.01 0)
+			(uuid "45de7dce-9aaa-4898-acff-59944ef3fc90")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "robot-pmu-hw"
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 111.76 193.675)
+		(size 27.305 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "bd1927ed-bc77-441c-bf79-4148b1af9afd")
+		(property "Sheetname" "Charger"
+			(at 111.76 192.9634 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "charger.kicad_sch"
+			(at 111.76 219.6596 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1014,7 +1106,7 @@
 		(instances
 			(project "robot-pmu-hw"
 				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5"
-					(page "2")
+					(page "3")
 				)
 			)
 		)
