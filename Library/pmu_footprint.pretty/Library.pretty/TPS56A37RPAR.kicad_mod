@@ -1,0 +1,434 @@
+(footprint "TPS56A37RPAR"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "RPA0010A")
+	(tags "Integrated Circuit")
+	(property "Reference" "REF**"
+		(at -0.01 0 0)
+		(layer "F.SilkS")
+		(uuid "01cfb747-7c0c-4a52-b1a2-1135ccf21124")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "TPS56A37RPAR"
+		(at -0.01 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "9569e632-1fd9-485b-b29d-70711c08cd32")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps56a37.pdf?ts=1708310049261&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTPS56A37"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5bd7b3ff-16ee-4d88-9d22-238a6e40d332")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Switching Voltage Regulators 4.5V to 28V input, 10A synchronous buck converter"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e7843bf3-f17e-4078-ada0-c05575e5db79")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Height" "1"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b9a0a7c9-be36-46f9-9f5e-f78fdc5bd35e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" "595-TPS56A37RPAR"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4aa496e5-c8cb-48f1-8e18-1637a6f752c5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS56A37RPAR?qs=dbcCsuKDzFV3BmG4b9YeGQ%3D%3D"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ca2ac186-6b56-4000-b6e6-6d37f7d3ad16")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "Texas Instruments"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4038adb8-3bee-4fcd-8643-bfa2f9923c54")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "TPS56A37RPAR"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a64e6443-d227-4db5-a95f-9986b594a793")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.1 -0.75)
+		(end -2.1 -0.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "500509ed-f028-4222-be4c-960db23a00d0")
+	)
+	(fp_line
+		(start -2 -0.75)
+		(end -2 -0.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "935d537c-9854-4003-aa5f-a64ab96521fd")
+	)
+	(fp_line
+		(start -1.5 -1.5)
+		(end -1.25 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "16a136e1-612e-408e-8e8f-4e73e2e4d9cf")
+	)
+	(fp_line
+		(start -1.5 -1.4)
+		(end -1.5 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "98e21089-0036-49fa-988e-dae2f492d0c6")
+	)
+	(fp_line
+		(start -1.5 -1.25)
+		(end -1.5 -1.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cd47f65f-ec95-4bcb-b5bb-afc618431aa8")
+	)
+	(fp_line
+		(start -1.5 1.25)
+		(end -1.5 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fa1b3fdd-148d-4312-944f-67c0aff23913")
+	)
+	(fp_line
+		(start -1.5 1.5)
+		(end -1.25 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b86582cd-b52a-4c18-ab7c-11d4be9ac5d6")
+	)
+	(fp_line
+		(start -0.5 1.5)
+		(end 0 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7e2ff43e-966a-462d-ab8f-f130c908c69a")
+	)
+	(fp_line
+		(start 0.5 -1.5)
+		(end 0.25 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6d712095-860c-4b7f-bd8a-b1f13392d820")
+	)
+	(fp_line
+		(start 1.5 -1.5)
+		(end 1.5 -1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3281371a-b3f1-4c1f-8c93-004c2b495059")
+	)
+	(fp_line
+		(start 1.5 1.5)
+		(end 1.5 0.85)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d3f08947-87b4-4094-b5cb-08294edf24d6")
+	)
+	(fp_arc
+		(start -2.1 -0.75)
+		(mid -2.05 -0.8)
+		(end -2 -0.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "331b3763-1c36-4330-b688-4889fdb9ace8")
+	)
+	(fp_arc
+		(start -2 -0.75)
+		(mid -2.05 -0.7)
+		(end -2.1 -0.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b0ed8e1a-f5ee-45b9-afed-b99a0a6a2605")
+	)
+	(fp_line
+		(start -2.41 -2.4)
+		(end 2.39 -2.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "101766ad-8372-413d-82d0-b05b5a1e1b7e")
+	)
+	(fp_line
+		(start -2.41 2.4)
+		(end -2.41 -2.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c3e5fc36-1bea-4878-a7ee-ec2f551068f7")
+	)
+	(fp_line
+		(start 2.39 -2.4)
+		(end 2.39 2.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5738b9f7-35bc-4b06-851c-e20da1616ba6")
+	)
+	(fp_line
+		(start 2.39 2.4)
+		(end -2.41 2.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4bc1241e-8c9e-4c3e-b541-8514d2eda440")
+	)
+	(fp_line
+		(start -1.5 -1.5)
+		(end 1.5 -1.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9f96ceca-02d9-4e9f-b2e8-0e24dc1129fb")
+	)
+	(fp_line
+		(start -1.5 1.5)
+		(end -1.5 -1.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "45246911-ba37-4f71-ad4e-1a4dbea647ef")
+	)
+	(fp_line
+		(start 1.5 -1.5)
+		(end 1.5 1.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fbca40f4-53ac-4757-b46d-2d7820097ede")
+	)
+	(fp_line
+		(start 1.5 1.5)
+		(end -1.5 1.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b91c9280-fd51-4a85-a0dc-489cface9078")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.01 0 0)
+		(layer "F.Fab")
+		(uuid "f8936955-d0ff-4d81-a773-32a424ca0e10")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.41 -0.75 90)
+		(size 0.25 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "c6f22b6b-5f55-484f-b0b0-70129517945e")
+	)
+	(pad "2" smd rect
+		(at -1.41 -0.25 90)
+		(size 0.25 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "4f246638-856f-47e3-b3d3-2e4657e2202e")
+	)
+	(pad "3" smd rect
+		(at -1.41 0.25 90)
+		(size 0.25 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "2c2e289b-20a5-40c6-99f7-8571c5f06f68")
+	)
+	(pad "4" smd rect
+		(at -1.41 0.75 90)
+		(size 0.25 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f38955e1-e7e0-4e20-b1f9-d8e91cc181e3")
+	)
+	(pad "5" smd rect
+		(at -0.94 1.4)
+		(size 0.25 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "6b2e945a-002f-4417-b843-8a179d7329f5")
+	)
+	(pad "6" smd rect
+		(at 0.36 0.85)
+		(size 0.25 1.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "ef29f1c2-73a4-48f4-a47d-bc1eeb314336")
+	)
+	(pad "7" smd rect
+		(at 0.86 1.4)
+		(size 0.25 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "facfd3cd-14c8-4fd0-ad22-fd8cec3ac49d")
+	)
+	(pad "8" smd rect
+		(at 0.94 -0.65)
+		(size 0.4 2.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d158c0f4-9b90-4d22-ae0b-c6d95baf09f7")
+	)
+	(pad "9" smd rect
+		(at -0.22 -0.65)
+		(size 0.4 2.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "4de45a98-4c78-4b17-a3a1-6eab61e08fb2")
+	)
+	(pad "10" smd rect
+		(at -0.94 -1.4)
+		(size 0.25 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "ccdd1f6a-03c4-49e4-904d-30041fb188a4")
+	)
+	(pad "11" smd rect
+		(at 1.41 0.25 90)
+		(size 0.25 0.56)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b2ea2120-df47-4023-a246-7b3ffef70242")
+	)
+	(pad "12" smd rect
+		(at 1.41 -0.25 90)
+		(size 0.25 0.56)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "cfa4baec-b2b8-4e68-b88c-7c27d56a721c")
+	)
+	(pad "13" smd rect
+		(at 1.41 -0.75 90)
+		(size 0.25 0.56)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d237d8a5-4cb3-4ad7-bdad-263c14d76e5b")
+	)
+	(embedded_fonts no)
+	(model "${HARDWARE_3D_MODELS}/VQFN-HR.wrl.x3d"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)

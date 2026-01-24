@@ -1,0 +1,275 @@
+(footprint "Vishay_PowerPAK_SC70-6L_Single"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Vishay PowerPAK SC70 single transistor package http://www.vishay.com/docs/70486/70486.pdf")
+	(tags "powerpak sc70 sc-70")
+	(property "Reference" "REF**"
+		(at 0 -2 0)
+		(layer "F.SilkS")
+		(uuid "9c822dd3-3149-4e30-ad0b-5b6e5ae6d283")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SiA453EDJ"
+		(at 0 2 0)
+		(layer "F.Fab")
+		(uuid "83831a3e-4ac7-4d09-9210-3cce7cc2c98d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "http://www.vishay.com/docs/62864/sia453edj.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4064b336-f5cf-422e-af36-730002c59b88")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "-10A Id, -30V Vds, P-Channel MOSFET"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8dd3c01e-42ad-448b-b198-d7cc1c5d6a8a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.77 -1.15)
+		(end 1 -1.15)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8bad9fed-05da-447f-98d4-ad1c43f7ca26")
+	)
+	(fp_line
+		(start 1 1.15)
+		(end -1 1.15)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0d0e16b4-3d03-446b-bf1f-67c0da3fca67")
+	)
+	(fp_poly
+		(pts
+			(xy -1.09 -1.06) (xy -1.37 -1.06) (xy -1.09 -1.34) (xy -1.09 -1.06)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "97bec3d1-4b34-419d-97c6-092b67c7e83d")
+	)
+	(fp_line
+		(start -1.35 -1.28)
+		(end 1.35 -1.28)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "bbdd1774-4e47-4099-8584-08ca6d57b32e")
+	)
+	(fp_line
+		(start -1.35 1.28)
+		(end -1.35 -1.28)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "69a23437-741e-4d52-8664-259867e04e5f")
+	)
+	(fp_line
+		(start 1.35 -1.28)
+		(end 1.35 1.28)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0b97a231-4edd-4221-9e33-3e74091a93a6")
+	)
+	(fp_line
+		(start 1.35 1.28)
+		(end -1.35 1.28)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "25483345-d85c-4b46-96ef-630bf73502c7")
+	)
+	(fp_line
+		(start -1.025 -0.5)
+		(end -0.5 -1.025)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "12ebda06-1ac9-4f03-bae9-de74714ea3b1")
+	)
+	(fp_line
+		(start -1.025 1.025)
+		(end -1.025 -0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4ba40b92-d1f5-436a-9bc4-a434e4715622")
+	)
+	(fp_line
+		(start -0.5 -1.025)
+		(end 1.025 -1.025)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3b0576f0-30e0-49c3-b116-8eac2d00975b")
+	)
+	(fp_line
+		(start -0.5 -1.025)
+		(end 1.025 -1.025)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "629bc292-7626-4460-a81d-ed831a6d63d9")
+	)
+	(fp_line
+		(start 1.025 -1.025)
+		(end 1.025 1.025)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "476ad103-7d54-42f1-8029-8f417df41e7d")
+	)
+	(fp_line
+		(start 1.025 1.025)
+		(end -1.025 1.025)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "72261c1e-1aec-4274-9046-6ad35303e430")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "60fbdaa6-d398-4b19-9fac-0e30d36b3e42")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.1)
+			)
+		)
+	)
+	(pad "" smd roundrect
+		(at -0.35 -0.325)
+		(size 0.6 0.8)
+		(layers "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "0775b436-63c4-4068-8b3c-011f501e81e4")
+	)
+	(pad "" smd roundrect
+		(at 0.35 -0.325)
+		(size 0.6 0.8)
+		(layers "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "02eab15f-8689-4127-bbbc-1075d4bce5db")
+	)
+	(pad "1" smd custom
+		(at 0 -0.325)
+		(size 1.5 0.95)
+		(layers "F.Cu" "F.Mask")
+		(zone_connect 2)
+		(thermal_bridge_angle 45)
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 1.1 -0.175) (xy -1.1 -0.175) (xy -1.1 -0.475) (xy 1.1 -0.475)
+				)
+				(width 0)
+				(fill yes)
+			)
+			(gr_poly
+				(pts
+					(xy 1.1 0.475) (xy -1.1 0.475) (xy -1.1 0.175) (xy 1.1 0.175)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "bea33315-7cf1-4be7-acea-5196a77c763a")
+	)
+	(pad "3" smd roundrect
+		(at -0.925 0.65)
+		(size 0.35 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "d84443f5-c3f0-4879-a942-95a2946690a5")
+	)
+	(pad "4" smd roundrect
+		(at 0.04 0.65)
+		(size 0.87 0.235)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "b1b91c4c-2357-4111-89bb-77406462ccdb")
+	)
+	(pad "4" smd roundrect
+		(at 0.925 0.65)
+		(size 0.35 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "064c7134-c207-48b0-8c6d-f224bd9434c3")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/Vishay_PowerPAK_SC70-6L_Single.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

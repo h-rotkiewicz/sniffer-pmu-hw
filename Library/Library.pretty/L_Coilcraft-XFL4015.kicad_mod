@@ -1,0 +1,363 @@
+(footprint "L_Coilcraft-XFL4015"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -0.5 -3.2 0)
+		(layer "F.SilkS")
+		(uuid "dc140eee-77e2-4a97-8aac-e8e50024ba1a")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "L_1u2_7.1A_Coilcraft-XFL4015"
+		(at 0.68 4.04 0)
+		(layer "F.Fab")
+		(uuid "3139e076-4827-4922-8d90-25313c22a9f0")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Datasheet" "https://www.coilcraft.com/getmedia/84927b8b-f089-421b-a7f4-a0fa23afe908/xfl4015.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "65475d09-d4cb-4963-a3a5-b8c9b0b6d29a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Power Inductor (SMD), 1.2 µH, 7.1 A, Shielded, 2.6 A, XFL4015"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c478f0b2-83ff-4db4-985a-9791f02b18ee")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Val" "1u2/7.1A"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "20ac0d99-c12e-4351-b381-ccefb4738899")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer" "Coilcraft"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "762beaa4-b504-4d86-b83e-0266097829a5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MPN" "XFL4015-122MEC"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dc6bde6d-adb2-4313-b8a6-fc8489195934")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "ISat" "4.5 A"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "18d3d069-a06e-4b10-926f-7c47773f9d29")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "IMax" "7.1 A"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b2ade38c-10e9-442c-bc38-bf5535ff9571")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Size" "4.3x4.3"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1b16aa87-b879-4683-aaca-484ab05cc9ca")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Author" "Antmicro"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "36f9e558-d906-4aad-b78b-1cf48c9178a8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "License" "Apache-2.0"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "932f9eba-da66-48cf-8423-8f9eec84e81b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.275 -2.275)
+		(end 2.275 -2.275)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5d68611a-767d-4af3-8eb8-b76bdc9669e2")
+	)
+	(fp_line
+		(start -2.275 2.275)
+		(end -2.275 -2.275)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bddb0a06-bb63-4e4a-9591-dbbd1b8dd1cf")
+	)
+	(fp_line
+		(start 2.275 -2.275)
+		(end 2.275 2.275)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3ce0d740-fa09-40cc-a429-19853557e64d")
+	)
+	(fp_line
+		(start 2.275 2.275)
+		(end -2.275 2.275)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "177af333-79eb-4af6-8dad-caa33d80e65d")
+	)
+	(fp_rect
+		(start -2.4 -2.4)
+		(end 2.4 2.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "78308787-82d6-4742-88fd-4270d3c82318")
+	)
+	(fp_rect
+		(start -2.15 -2.15)
+		(end 2.15 2.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "User.5")
+		(uuid "ed18afae-47d6-4481-828d-d11def4547af")
+	)
+	(fp_line
+		(start -2.15 -2.15)
+		(end 2.15 -2.15)
+		(stroke
+			(width 0.02)
+			(type solid)
+		)
+		(layer "User.9")
+		(uuid "a04d780a-87e8-47d3-88f4-c554acd29eeb")
+	)
+	(fp_line
+		(start -2.15 2.15)
+		(end -2.15 -2.15)
+		(stroke
+			(width 0.02)
+			(type solid)
+		)
+		(layer "User.9")
+		(uuid "7ad4b926-caf0-4fa8-9156-2f6bd5e70dc2")
+	)
+	(fp_line
+		(start -1.779 -1.6)
+		(end -1.779 1.6)
+		(stroke
+			(width 0.02)
+			(type solid)
+		)
+		(layer "User.9")
+		(uuid "0832501e-d6e1-4ad3-9f3a-ba69724c4fb7")
+	)
+	(fp_line
+		(start -1.779 1.6)
+		(end -1.579 1.6)
+		(stroke
+			(width 0.02)
+			(type solid)
+		)
+		(layer "User.9")
+		(uuid "3603b533-1b14-4705-a3b4-e49c43c8a09b")
+	)
+	(fp_line
+		(start -1.579 -1.6)
+		(end -1.779 -1.6)
+		(stroke
+			(width 0.02)
+			(type solid)
+		)
+		(layer "User.9")
+		(uuid "4f48f28b-09d6-4837-a270-0578d2f10613")
+	)
+	(fp_line
+		(start -1.579 1.6)
+		(end -1.579 -1.6)
+		(stroke
+			(width 0.02)
+			(type solid)
+		)
+		(layer "User.9")
+		(uuid "cc950dca-2cba-469e-b502-f649dd30915b")
+	)
+	(fp_line
+		(start 2.15 -2.15)
+		(end 2.15 2.15)
+		(stroke
+			(width 0.02)
+			(type solid)
+		)
+		(layer "User.9")
+		(uuid "2b056a05-480e-4df4-91f2-5ded27adbf81")
+	)
+	(fp_line
+		(start 2.15 2.15)
+		(end -2.15 2.15)
+		(stroke
+			(width 0.02)
+			(type solid)
+		)
+		(layer "User.9")
+		(uuid "889578da-b862-4c9c-b72b-a2192e25d411")
+	)
+	(fp_text user "Author: Antmicro"
+		(at -2.4 8.44 0)
+		(layer "F.Fab")
+		(uuid "0f344f00-5bc6-47e1-837b-5d28cfcdf52c")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at -2.4 6.04 0)
+		(layer "F.Fab")
+		(uuid "33ef6ccf-1ddd-494c-b2c2-bcf86f737519")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "License: Apache-2.0"
+		(at -2.4 7.24 0)
+		(layer "F.Fab")
+		(uuid "70997da9-b722-41e7-b918-f32bb9099675")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -1.185 0)
+		(size 1 3.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(uuid "90c84dc9-5204-4255-92a8-7c7538d4d355")
+	)
+	(pad "2" smd roundrect
+		(at 1.185 0)
+		(size 1 3.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(uuid "19d9bab1-5147-4dd5-9128-9df56a1321c8")
+	)
+	(embedded_fonts no)
+	(model "${HARDWARE_3D_MODELS}/L_Coilcraft-XFL4015.wrl.x3d"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -8,4 +8,6 @@
   (lib (name "pmu_symbols")(type "KiCad")(uri "${KIPRJMOD}/Library/pmu_symbols.kicad_sym")(options "")(descr ""))
   (lib (name "DC-DC converters")(type "KiCad")(uri "${KIPRJMOD}/DC-DC converters.kicad_sym")(options "")(descr ""))
   (lib (name "SamacSys_Parts")(type "KiCad")(uri "C:/Users/alber/Desktop/bms/lib/SamacSys_Parts.kicad_sym")(options "")(descr ""))
+  (lib (name "Library")(type "KiCad")(uri "${KIPRJMOD}/Library/Library.kicad_sym")(options "")(descr ""))
+  (lib (name "lib")(type "KiCad")(uri "${KIPRJMOD}/Library/lib.kicad_sym")(options "")(descr ""))
 )

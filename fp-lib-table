@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "Footprints")(type "KiCad")(uri "${KIPRJMOD}/Library/Footprints.pretty")(options "")(descr ""))
   (lib (name "pmu_footprint")(type "KiCad")(uri "${KIPRJMOD}/Library/pmu_footprint.pretty")(options "")(descr ""))
+  (lib (name "Library")(type "KiCad")(uri "${KIPRJMOD}/Library/pmu_footprint.pretty/Library.pretty")(options "")(descr ""))
 )
