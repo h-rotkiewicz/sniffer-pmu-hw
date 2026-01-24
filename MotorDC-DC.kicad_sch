@@ -4,6 +4,11 @@
 	(generator_version "9.0")
 	(uuid "cc1ad29d-2616-43e2-997b-3d90aadcc4d5")
 	(paper "A4")
+	(title_block
+		(title "Robot power supply")
+		(date "2026-01-24")
+		(rev "rev 1.0")
+	)
 	(lib_symbols
 		(symbol "TPS56637RPAR_1"
 			(exclude_from_sim no)

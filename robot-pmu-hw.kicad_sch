@@ -4,6 +4,11 @@
 	(generator_version "9.0")
 	(uuid "ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5")
 	(paper "A3")
+	(title_block
+		(title "Robot power supply")
+		(date "2026-01-24")
+		(rev "rev 1.0")
+	)
 	(lib_symbols)
 	(rectangle
 		(start 189.23 114.935)
@@ -167,6 +172,7 @@
 				(size 2 2)
 				(thickness 0.4)
 				(bold yes)
+				(color 255 255 255 1)
 			)
 		)
 		(uuid "05362a3a-5678-4257-a82f-af60d091e913")
@@ -179,6 +185,7 @@
 				(size 2 2)
 				(thickness 0.4)
 				(bold yes)
+				(color 255 255 255 1)
 			)
 		)
 		(uuid "09b00a33-6545-4a7d-8c2a-ab71cfb1842a")
@@ -191,6 +198,7 @@
 				(size 2 2)
 				(thickness 0.4)
 				(bold yes)
+				(color 255 255 255 1)
 			)
 		)
 		(uuid "1e3a5c0d-59c8-4ce4-8875-675a295db5a3")
@@ -215,6 +223,7 @@
 				(size 2 2)
 				(thickness 0.4)
 				(bold yes)
+				(color 255 255 255 1)
 			)
 		)
 		(uuid "478bff87-2b63-4871-89cc-9ea174a302be")
@@ -227,6 +236,7 @@
 				(size 2 2)
 				(thickness 0.4)
 				(bold yes)
+				(color 255 255 255 1)
 			)
 		)
 		(uuid "47e15e27-8637-4331-9aa2-e9f179554ce2")
@@ -239,6 +249,7 @@
 				(size 2 2)
 				(thickness 0.4)
 				(bold yes)
+				(color 255 255 255 1)
 			)
 		)
 		(uuid "4f5c9c53-74f2-40ee-9981-5b26938fbc53")
@@ -251,6 +262,7 @@
 				(size 2 2)
 				(thickness 0.4)
 				(bold yes)
+				(color 255 255 255 1)
 			)
 		)
 		(uuid "5584da99-8ebd-4e03-a2c9-38e003435471")
@@ -263,6 +275,7 @@
 				(size 2 2)
 				(thickness 0.4)
 				(bold yes)
+				(color 255 255 255 1)
 			)
 		)
 		(uuid "6344eed6-552e-4d55-80f1-73246f185056")
@@ -275,6 +288,7 @@
 				(size 2 2)
 				(thickness 0.4)
 				(bold yes)
+				(color 255 255 255 1)
 			)
 		)
 		(uuid "746f7d36-6b72-4e6e-ad6b-bc63f8c33a20")
@@ -287,6 +301,7 @@
 				(size 2 2)
 				(thickness 0.4)
 				(bold yes)
+				(color 255 255 255 1)
 			)
 		)
 		(uuid "7c08fb14-feae-4707-810c-c02af22fb47a")
@@ -299,6 +314,7 @@
 				(size 2 2)
 				(thickness 0.4)
 				(bold yes)
+				(color 255 255 255 1)
 			)
 		)
 		(uuid "80d37469-87f7-4094-994f-dd98ca1455b1")
@@ -311,6 +327,7 @@
 				(size 2 2)
 				(thickness 0.4)
 				(bold yes)
+				(color 255 255 255 1)
 			)
 		)
 		(uuid "85e52b69-f15b-423c-955c-90a2cb7cee6b")
@@ -323,6 +340,7 @@
 				(size 2 2)
 				(thickness 0.4)
 				(bold yes)
+				(color 255 255 255 1)
 			)
 		)
 		(uuid "91eac569-d4d8-4660-bbec-165005870387")
@@ -335,6 +353,7 @@
 				(size 1.5 1.5)
 				(thickness 0.4)
 				(bold yes)
+				(color 255 255 255 1)
 			)
 		)
 		(uuid "936b01f8-1b01-478f-9d83-7a39d3661fac")
@@ -347,6 +366,7 @@
 				(size 2 2)
 				(thickness 0.4)
 				(bold yes)
+				(color 255 255 255 1)
 			)
 		)
 		(uuid "d0c4979b-a807-41bd-8996-af6e11e59e54")
@@ -359,19 +379,44 @@
 		(stroke
 			(width 0)
 			(type solid)
+			(color 130 179 102 1)
 		)
 		(fill
 			(type color)
-			(color 45 45 45 1)
+			(color 213 232 212 1)
 		)
 		(effects
 			(font
 				(size 3 3)
 				(thickness 0.254)
 				(bold yes)
+				(color 0 0 0 1)
 			)
 		)
 		(uuid "12a90fbb-a3d1-43f9-8640-3d2218c11fbd")
+	)
+	(text_box " \n"
+		(exclude_from_sim no)
+		(at 222.758 160.274 0)
+		(size 24.13 14.605)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 108 142 191 1)
+		)
+		(fill
+			(type color)
+			(color 218 232 252 1)
+		)
+		(effects
+			(font
+				(size 2.5 2.5)
+				(thickness 0.3125)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "32528d00-6d3a-40c3-bc99-d8130cfb200c")
 	)
 	(text_box "Gas sensors DC-DC \n3.5V@3A"
 		(exclude_from_sim no)
@@ -381,17 +426,18 @@
 		(stroke
 			(width 0)
 			(type solid)
-			(color 233 123 22 1)
+			(color 184 84 80 1)
 		)
 		(fill
 			(type color)
-			(color 45 45 45 1)
+			(color 248 206 204 1)
 		)
 		(effects
 			(font
 				(size 3 3)
 				(thickness 0.254)
 				(bold yes)
+				(color 0 0 0 1)
 			)
 		)
 		(uuid "3354b4f8-8ce6-4de1-b552-41d6a83f2d1f")
@@ -404,17 +450,18 @@
 		(stroke
 			(width 0)
 			(type solid)
-			(color 233 123 22 1)
+			(color 184 84 80 1)
 		)
 		(fill
 			(type color)
-			(color 45 45 45 1)
+			(color 248 206 204 1)
 		)
 		(effects
 			(font
 				(size 3 3)
 				(thickness 0.254)
 				(bold yes)
+				(color 0 0 0 1)
 			)
 		)
 		(uuid "5451fb97-0b04-40da-9b8a-f58ac49b3f91")
@@ -422,22 +469,23 @@
 	(text_box "BMS charging circuit\n\n"
 		(exclude_from_sim no)
 		(at 200.66 109.22 0)
-		(size 33.02 24.765)
+		(size 33.02 18.288)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
 			(type solid)
-			(color 51 192 54 1)
+			(color 130 179 102 1)
 		)
 		(fill
 			(type color)
-			(color 45 45 45 1)
+			(color 213 232 212 1)
 		)
 		(effects
 			(font
 				(size 3 3)
 				(thickness 0.254)
 				(bold yes)
+				(color 0 0 0 1)
 			)
 		)
 		(uuid "5b11ef71-c09a-4e2d-9006-0d3cc62618b0")
@@ -450,17 +498,18 @@
 		(stroke
 			(width 0)
 			(type solid)
-			(color 51 192 54 1)
+			(color 130 179 102 1)
 		)
 		(fill
 			(type color)
-			(color 45 45 45 1)
+			(color 213 232 212 1)
 		)
 		(effects
 			(font
 				(size 3 3)
 				(thickness 0.254)
 				(bold yes)
+				(color 0 0 0 1)
 			)
 		)
 		(uuid "6b7d8ffc-130b-4b8a-b33d-990b4ee6dc9b")
@@ -473,17 +522,18 @@
 		(stroke
 			(width 0)
 			(type solid)
-			(color 51 192 54 1)
+			(color 130 179 102 1)
 		)
 		(fill
 			(type color)
-			(color 45 45 45 1)
+			(color 213 232 212 1)
 		)
 		(effects
 			(font
 				(size 3 3)
 				(thickness 0.254)
 				(bold yes)
+				(color 0 0 0 1)
 			)
 		)
 		(uuid "a2d020e3-1c38-41d8-9f98-54e50652ea18")
@@ -496,15 +546,17 @@
 		(stroke
 			(width 0)
 			(type solid)
+			(color 108 142 191 1)
 		)
 		(fill
 			(type color)
-			(color 45 45 45 1)
+			(color 218 232 252 1)
 		)
 		(effects
 			(font
 				(size 2.5 2.5)
 				(thickness 0.3125)
+				(color 0 0 0 1)
 			)
 		)
 		(uuid "aef7c3e3-1ea8-4219-bbec-4c254f56abbb")
@@ -517,17 +569,18 @@
 		(stroke
 			(width 0)
 			(type solid)
-			(color 51 192 54 1)
+			(color 130 179 102 1)
 		)
 		(fill
 			(type color)
-			(color 45 45 45 1)
+			(color 213 232 212 1)
 		)
 		(effects
 			(font
 				(size 3 3)
 				(thickness 0.254)
 				(bold yes)
+				(color 0 0 0 1)
 			)
 		)
 		(uuid "bb066219-8b6d-4f7f-b6c1-6be069e432fa")
@@ -540,17 +593,18 @@
 		(stroke
 			(width 0)
 			(type solid)
-			(color 233 123 22 1)
+			(color 184 84 80 1)
 		)
 		(fill
 			(type color)
-			(color 45 45 45 1)
+			(color 248 206 204 1)
 		)
 		(effects
 			(font
 				(size 3 3)
 				(thickness 0.254)
 				(bold yes)
+				(color 0 0 0 1)
 			)
 		)
 		(uuid "c9363272-19fb-472c-a4a8-41a4801ba23f")
@@ -563,17 +617,18 @@
 		(stroke
 			(width 0)
 			(type solid)
-			(color 51 192 54 1)
+			(color 130 179 102 1)
 		)
 		(fill
 			(type color)
-			(color 45 45 45 1)
+			(color 213 232 212 1)
 		)
 		(effects
 			(font
 				(size 3 3)
 				(thickness 0.254)
 				(bold yes)
+				(color 0 0 0 1)
 			)
 		)
 		(uuid "ccfdb63b-6a9b-4535-84df-72d96e359c00")
@@ -586,17 +641,18 @@
 		(stroke
 			(width 0)
 			(type solid)
-			(color 233 123 22 1)
+			(color 184 84 80 1)
 		)
 		(fill
 			(type color)
-			(color 45 45 45 1)
+			(color 248 206 204 1)
 		)
 		(effects
 			(font
 				(size 3 3)
 				(thickness 0.254)
 				(bold yes)
+				(color 0 0 0 1)
 			)
 		)
 		(uuid "d6e0333c-dcaf-4236-a0b7-53c3a012c2bb")
@@ -609,17 +665,18 @@
 		(stroke
 			(width 0)
 			(type solid)
-			(color 233 123 22 1)
+			(color 184 84 80 1)
 		)
 		(fill
 			(type color)
-			(color 45 45 45 1)
+			(color 248 206 204 1)
 		)
 		(effects
 			(font
 				(size 3 3)
 				(thickness 0.254)
 				(bold yes)
+				(color 0 0 0 1)
 			)
 		)
 		(uuid "e5f0b630-d78e-406a-8c5a-c1a38690d4db")
@@ -632,15 +689,17 @@
 		(stroke
 			(width 0)
 			(type solid)
+			(color 108 142 191 1)
 		)
 		(fill
 			(type color)
-			(color 45 45 45 1)
+			(color 218 232 252 1)
 		)
 		(effects
 			(font
 				(size 2.5 2.5)
 				(thickness 0.3125)
+				(color 0 0 0 1)
 			)
 		)
 		(uuid "f86d9d1f-1324-46f2-854a-6054603b3056")
@@ -691,7 +750,7 @@
 		(stroke
 			(width 0)
 			(type default)
-			(color 0 255 0 1)
+			(color 0 132 0 1)
 		)
 		(uuid "1fbcfc9e-737c-449d-a467-edb51d84cf60")
 	)
@@ -735,7 +794,7 @@
 		(stroke
 			(width 0)
 			(type default)
-			(color 0 255 0 1)
+			(color 0 132 0 1)
 		)
 		(uuid "30a81aa0-619b-4ae2-88ac-a0c8eb850456")
 	)
@@ -768,7 +827,7 @@
 		(stroke
 			(width 0)
 			(type default)
-			(color 0 255 0 1)
+			(color 0 132 0 1)
 		)
 		(uuid "36b7a82e-98c9-4dde-bed1-a7a191dc2ba8")
 	)
@@ -779,7 +838,7 @@
 		(stroke
 			(width 0)
 			(type default)
-			(color 0 255 0 1)
+			(color 0 132 0 1)
 		)
 		(uuid "37a0b0dc-1df6-4efc-a598-24680cb09541")
 	)
@@ -801,7 +860,7 @@
 		(stroke
 			(width 0)
 			(type default)
-			(color 0 255 0 1)
+			(color 0 132 0 1)
 		)
 		(uuid "3a86b159-4eb3-40ef-8603-50a4d17bc2f3")
 	)
@@ -812,7 +871,7 @@
 		(stroke
 			(width 0)
 			(type default)
-			(color 0 255 0 1)
+			(color 0 132 0 1)
 		)
 		(uuid "477b9b5b-6848-4c0e-ad9b-1bde2dcd4c62")
 	)
@@ -845,7 +904,7 @@
 		(stroke
 			(width 0)
 			(type default)
-			(color 0 255 0 1)
+			(color 0 132 0 1)
 		)
 		(uuid "58062172-892e-439f-ae57-251ab2cb0144")
 	)
@@ -889,7 +948,7 @@
 		(stroke
 			(width 0)
 			(type default)
-			(color 0 255 0 1)
+			(color 0 132 0 1)
 		)
 		(uuid "65ee90c2-29f0-4dfd-a256-9521fde1a32c")
 	)
@@ -900,7 +959,7 @@
 		(stroke
 			(width 0)
 			(type default)
-			(color 0 255 0 1)
+			(color 0 132 0 1)
 		)
 		(uuid "7133cb6a-7272-4e0f-bd00-1955945ec6ca")
 	)
@@ -911,7 +970,7 @@
 		(stroke
 			(width 0)
 			(type default)
-			(color 0 255 0 1)
+			(color 0 132 0 1)
 		)
 		(uuid "724b0fa0-b69a-4ccd-9a24-67fa926d000b")
 	)
@@ -933,7 +992,7 @@
 		(stroke
 			(width 0)
 			(type default)
-			(color 0 255 0 1)
+			(color 0 132 0 1)
 		)
 		(uuid "80e37590-ff4c-48ed-905f-38fea67a6831")
 	)
@@ -944,7 +1003,7 @@
 		(stroke
 			(width 0)
 			(type default)
-			(color 0 255 0 1)
+			(color 0 132 0 1)
 		)
 		(uuid "8955fc88-7587-4c3a-ab19-0b56972ae31d")
 	)
@@ -1098,7 +1157,7 @@
 		(stroke
 			(width 0)
 			(type default)
-			(color 0 255 0 1)
+			(color 0 132 0 1)
 		)
 		(uuid "e09b435d-fdcd-439b-be09-30a61f96753c")
 	)
@@ -1120,7 +1179,7 @@
 		(stroke
 			(width 0)
 			(type default)
-			(color 0 255 0 1)
+			(color 0 132 0 1)
 		)
 		(uuid "eecdf431-f290-48d3-a481-9dd4eb0a38e4")
 	)
@@ -1137,7 +1196,7 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 108 142 191 1.0000)
 		)
 		(uuid "0ace8ed6-0bc2-4016-a404-d78c27640a39")
 		(property "Sheetname" "uC"
@@ -1430,7 +1489,7 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 130 179 102 1.0000)
 		)
 		(uuid "6145706c-b7b6-4b66-b716-8a5b8a9fa9cd")
 		(property "Sheetname" "Charger"
@@ -1572,16 +1631,17 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 108 142 191 1.0000)
 		)
 		(uuid "9bcd7b8b-c1be-4811-b7b3-02c012fdb137")
 		(property "Sheetname" "Display"
-			(at 236.601 171.45 0)
+			(at 234.442 168.148 0)
 			(effects
 				(font
 					(size 3 3)
 					(thickness 0.254)
 					(bold yes)
+					(color 0 0 0 1)
 				)
 			)
 		)
@@ -1655,7 +1715,7 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 130 179 102 1.0000)
 		)
 		(uuid "a47f2e94-8c2a-4d98-b3eb-efb44ddbbfe6")
 		(property "Sheetname" "BMS"

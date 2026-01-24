@@ -5,9 +5,9 @@
 	(uuid "52c3a390-331b-44af-9902-da241b57cc6f")
 	(paper "A3")
 	(title_block
-		(title "sniffer robot power managment unit")
-		(date "2025-11-15")
-		(rev "Rev 1.0.0")
+		(title "Robot power supply")
+		(date "2026-01-24")
+		(rev "rev 1.0")
 	)
 	(lib_symbols
 		(symbol "lib:2N7002K"

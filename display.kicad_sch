@@ -4,6 +4,11 @@
 	(generator_version "9.0")
 	(uuid "c8be7773-9e94-4464-8454-3dc2235325dc")
 	(paper "A4")
+	(title_block
+		(title "Robot power supply")
+		(date "2026-01-24")
+		(rev "rev 1.0")
+	)
 	(lib_symbols
 		(symbol "lib:+3V3"
 			(power)
