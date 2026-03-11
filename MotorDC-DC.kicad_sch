@@ -4359,6 +4359,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 162.56 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "33e0acbc-f833-44c0-824c-f1a7083f5509")
 		)
@@ -4421,6 +4430,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 100.33 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 100.33 93.98 0)
 			(effects
 				(font
@@ -4567,6 +4585,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 166.37 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d977f34f-5a88-4d84-9913-829ee94109e3")
 		)
@@ -4675,7 +4702,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TPS56637RPAR"
+		(property "Footprint" "Package_DFN_QFN:Texas_RPU0010A_VQFN-HR-10_2x2mm_P0.5mm"
 			(at 123.19 202.87 0)
 			(effects
 				(font
@@ -4751,6 +4778,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 96.52 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -5001,6 +5037,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 187.96 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -5286,6 +5331,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 92.71 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ac715b39-fbeb-4ca2-af6b-42d7475aa510")
 		)
@@ -5425,6 +5479,15 @@
 					(thickness 0.15)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 251.46 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -5589,6 +5652,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 58.42 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5913bd2d-260a-4d83-ac96-c0a5e446ce3d")
 		)
@@ -5747,6 +5819,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 67.31 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -6165,6 +6246,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 158.75 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cf12c59b-0499-4a51-9855-b25cc06874f5")
 		)
@@ -6450,6 +6540,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 85.09 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bc56e086-174e-4181-900c-5ab2fdb97b71")
 		)
@@ -6611,6 +6710,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 76.2 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5a5c2272-a236-4c31-b312-7ce8221a3103")
 		)
@@ -6749,6 +6857,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 173.99 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -6959,6 +7076,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 173.99 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "50e09325-0fa1-4193-84d2-5b413db996ed")
 		)
@@ -7021,6 +7147,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 213.36 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 213.36 88.9 0)
 			(effects
 				(font
@@ -7146,6 +7281,15 @@
 					(thickness 0.15)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 243.84 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -7280,6 +7424,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 100.33 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 100.33 111.76 0)
 			(effects
 				(font
@@ -7439,6 +7592,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 144.78 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f035b8cb-0cee-4a80-a38a-b0e50f6706f3")
 		)
@@ -7507,6 +7669,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 251.46 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 251.46 88.9 0)
 			(effects
 				(font
@@ -7642,6 +7813,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 236.22 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 236.22 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7806,6 +7986,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 196.85 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
