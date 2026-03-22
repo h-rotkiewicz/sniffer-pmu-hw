@@ -10,129 +10,6 @@
 		(rev "rev 1.0")
 	)
 	(lib_symbols
-		(symbol "Hardware Components:Mech_Adafruit_326_H6.0mm"
-			(exclude_from_sim no)
-			(in_bom no)
-			(on_board yes)
-			(property "Reference" "A"
-				(at 25.4 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "Mech_Adafruit_326_H6.0mm"
-				(at 25.4 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "Hardware Components Footprints:Mech_Adafruit_326_H6.0mm"
-				(at 25.4 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.adafruit.com/product/326#technical-details"
-				(at 25.4 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Description" "Monochrome 0.96 inch 128x64 OLED Graphic Display"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MPN" "326"
-				(at 25.4 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Manufacturer" "Adafruit"
-				(at 25.4 -17.78 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Author" "Antmicro"
-				(at 25.4 -20.32 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "License" "Apache-2.0"
-				(at 25.4 -22.86 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "MODULE"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Mech_Adafruit_326_H6.0mm_1_1"
-				(rectangle
-					(start 10.16 -6.35)
-					(end 0 0)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Hardware Components:R_200k_0402"
 			(pin_numbers
 				(hide yes)
@@ -5307,10 +5184,6 @@
 		(uuid "1172e5d0-5404-4fbb-ba63-5f8bbb8c494c")
 	)
 	(no_connect
-		(at 86.36 120.65)
-		(uuid "17dc0fba-4e77-4de3-9f25-b8df60347ebb")
-	)
-	(no_connect
 		(at 86.36 72.39)
 		(uuid "1b62d823-aa2f-44eb-b7c0-99072792edb5")
 	)
@@ -5327,8 +5200,12 @@
 		(uuid "5fa5a273-5dd6-4f77-9a64-5fdc88405fe5")
 	)
 	(no_connect
-		(at 116.84 90.17)
-		(uuid "8559b954-bb9f-4c95-98df-0b42dfd84843")
+		(at 86.36 110.49)
+		(uuid "652a98f6-c153-4953-a13f-b4830b623c15")
+	)
+	(no_connect
+		(at 86.36 113.03)
+		(uuid "8b253bde-2fa1-49ca-9112-5b2ae9408197")
 	)
 	(no_connect
 		(at 116.84 72.39)
@@ -6016,6 +5893,16 @@
 	)
 	(wire
 		(pts
+			(xy 118.11 85.09) (xy 116.84 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ff771d3-f278-4ac5-868c-1ed07ff5ed67")
+	)
+	(wire
+		(pts
 			(xy 67.31 60.96) (xy 67.31 64.77)
 		)
 		(stroke
@@ -6206,6 +6093,16 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 90.17) (xy 123.19 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a941bd59-bfb4-40c7-993c-3e1ee5c507a0")
+	)
+	(wire
+		(pts
 			(xy 35.56 80.01) (xy 43.18 80.01)
 		)
 		(stroke
@@ -6393,6 +6290,16 @@
 			(type default)
 		)
 		(uuid "c76ba506-85cf-47ae-8c47-e0e9cf554f6e")
+	)
+	(wire
+		(pts
+			(xy 118.11 83.82) (xy 118.11 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c902f0ae-03f7-4fc0-8d13-06a609f7f8cd")
 	)
 	(wire
 		(pts
@@ -6654,16 +6561,6 @@
 		)
 		(uuid "fd4cae21-c8d8-4534-988c-cf4cdc83b38f")
 	)
-	(wire
-		(pts
-			(xy 123.19 85.09) (xy 116.84 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fd84af44-bb06-4e21-b4e6-f093f005f148")
-	)
 	(image
 		(at 248.92 137.16)
 		(uuid "c863f091-73e0-4ad1-9531-0705f965a501")
@@ -6893,7 +6790,7 @@
 		(uuid "a897722b-b88c-45c1-9944-c951273edb35")
 	)
 	(label "BTN1"
-		(at 123.19 85.09 180)
+		(at 123.19 90.17 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7005,7 +6902,7 @@
 	)
 	(hierarchical_label "motor_en "
 		(shape bidirectional)
-		(at 86.36 113.03 180)
+		(at 86.36 118.11 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7027,7 +6924,7 @@
 	)
 	(hierarchical_label "fan_en"
 		(shape bidirectional)
-		(at 86.36 118.11 180)
+		(at 86.36 125.73 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7038,7 +6935,7 @@
 	)
 	(hierarchical_label "romeo_en"
 		(shape bidirectional)
-		(at 86.36 125.73 180)
+		(at 86.36 120.65 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7071,12 +6968,12 @@
 	)
 	(hierarchical_label "gas_en"
 		(shape bidirectional)
-		(at 86.36 110.49 180)
+		(at 118.11 83.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "e0e07e9c-50b2-4840-a16d-882b8ef0b62e")
 	)
@@ -7240,6 +7137,12 @@
 					(unit 1)
 				)
 			)
+			(project "MCU"
+				(path "/ee49a8bb-0b0b-43b7-82f7-e171cf6a7acc"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7390,6 +7293,12 @@
 					(unit 1)
 				)
 			)
+			(project "MCU"
+				(path "/ee49a8bb-0b0b-43b7-82f7-e171cf6a7acc"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7452,6 +7361,12 @@
 			(project "robot-pmu-hw"
 				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/0ace8ed6-0bc2-4016-a404-d78c27640a39"
 					(reference "#PWR077")
+					(unit 1)
+				)
+			)
+			(project "MCU"
+				(path "/ee49a8bb-0b0b-43b7-82f7-e171cf6a7acc"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -7615,6 +7530,12 @@
 					(unit 1)
 				)
 			)
+			(project "MCU"
+				(path "/ee49a8bb-0b0b-43b7-82f7-e171cf6a7acc"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7677,6 +7598,12 @@
 			(project "robot-pmu-hw"
 				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/0ace8ed6-0bc2-4016-a404-d78c27640a39"
 					(reference "#PWR076")
+					(unit 1)
+				)
+			)
+			(project "MCU"
+				(path "/ee49a8bb-0b0b-43b7-82f7-e171cf6a7acc"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -7840,6 +7767,12 @@
 					(unit 1)
 				)
 			)
+			(project "MCU"
+				(path "/ee49a8bb-0b0b-43b7-82f7-e171cf6a7acc"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7991,6 +7924,12 @@
 					(unit 1)
 				)
 			)
+			(project "MCU"
+				(path "/ee49a8bb-0b0b-43b7-82f7-e171cf6a7acc"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -8053,6 +7992,12 @@
 			(project "robot-pmu-hw"
 				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/0ace8ed6-0bc2-4016-a404-d78c27640a39"
 					(reference "#PWR074")
+					(unit 1)
+				)
+			)
+			(project "MCU"
+				(path "/ee49a8bb-0b0b-43b7-82f7-e171cf6a7acc"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -8120,6 +8065,12 @@
 			(project "robot-pmu-hw"
 				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/0ace8ed6-0bc2-4016-a404-d78c27640a39"
 					(reference "#PWR079")
+					(unit 1)
+				)
+			)
+			(project "MCU"
+				(path "/ee49a8bb-0b0b-43b7-82f7-e171cf6a7acc"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -8274,6 +8225,12 @@
 					(unit 1)
 				)
 			)
+			(project "MCU"
+				(path "/ee49a8bb-0b0b-43b7-82f7-e171cf6a7acc"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -8336,6 +8293,12 @@
 			(project "robot-pmu-hw"
 				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/0ace8ed6-0bc2-4016-a404-d78c27640a39"
 					(reference "#PWR082")
+					(unit 1)
+				)
+			)
+			(project "MCU"
+				(path "/ee49a8bb-0b0b-43b7-82f7-e171cf6a7acc"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -8406,6 +8369,12 @@
 					(unit 1)
 				)
 			)
+			(project "MCU"
+				(path "/ee49a8bb-0b0b-43b7-82f7-e171cf6a7acc"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -8470,6 +8439,12 @@
 			(project "robot-pmu-hw"
 				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/0ace8ed6-0bc2-4016-a404-d78c27640a39"
 					(reference "#PWR066")
+					(unit 1)
+				)
+			)
+			(project "MCU"
+				(path "/ee49a8bb-0b0b-43b7-82f7-e171cf6a7acc"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -8540,6 +8515,12 @@
 					(unit 1)
 				)
 			)
+			(project "MCU"
+				(path "/ee49a8bb-0b0b-43b7-82f7-e171cf6a7acc"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -8604,6 +8585,12 @@
 			(project "robot-pmu-hw"
 				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/0ace8ed6-0bc2-4016-a404-d78c27640a39"
 					(reference "#PWR057")
+					(unit 1)
+				)
+			)
+			(project "MCU"
+				(path "/ee49a8bb-0b0b-43b7-82f7-e171cf6a7acc"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -8745,6 +8732,12 @@
 			(project ""
 				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/0ace8ed6-0bc2-4016-a404-d78c27640a39"
 					(reference "R34")
+					(unit 1)
+				)
+			)
+			(project "MCU"
+				(path "/ee49a8bb-0b0b-43b7-82f7-e171cf6a7acc"
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -8896,6 +8889,12 @@
 					(unit 1)
 				)
 			)
+			(project "MCU"
+				(path "/ee49a8bb-0b0b-43b7-82f7-e171cf6a7acc"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -8960,6 +8959,12 @@
 			(project "robot-pmu-hw"
 				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/0ace8ed6-0bc2-4016-a404-d78c27640a39"
 					(reference "#PWR070")
+					(unit 1)
+				)
+			)
+			(project "MCU"
+				(path "/ee49a8bb-0b0b-43b7-82f7-e171cf6a7acc"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -9030,6 +9035,12 @@
 					(unit 1)
 				)
 			)
+			(project "MCU"
+				(path "/ee49a8bb-0b0b-43b7-82f7-e171cf6a7acc"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -9092,6 +9103,12 @@
 			(project "robot-pmu-hw"
 				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/0ace8ed6-0bc2-4016-a404-d78c27640a39"
 					(reference "#PWR062")
+					(unit 1)
+				)
+			)
+			(project "MCU"
+				(path "/ee49a8bb-0b0b-43b7-82f7-e171cf6a7acc"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -9228,6 +9245,12 @@
 					(unit 1)
 				)
 			)
+			(project "MCU"
+				(path "/ee49a8bb-0b0b-43b7-82f7-e171cf6a7acc"
+					(reference "SW?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -9292,6 +9315,12 @@
 			(project "robot-pmu-hw"
 				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/0ace8ed6-0bc2-4016-a404-d78c27640a39"
 					(reference "#PWR071")
+					(unit 1)
+				)
+			)
+			(project "MCU"
+				(path "/ee49a8bb-0b0b-43b7-82f7-e171cf6a7acc"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -9457,6 +9486,12 @@
 					(unit 1)
 				)
 			)
+			(project "MCU"
+				(path "/ee49a8bb-0b0b-43b7-82f7-e171cf6a7acc"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -9595,6 +9630,12 @@
 			(project "robot-pmu-hw"
 				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/0ace8ed6-0bc2-4016-a404-d78c27640a39"
 					(reference "R39")
+					(unit 1)
+				)
+			)
+			(project "MCU"
+				(path "/ee49a8bb-0b0b-43b7-82f7-e171cf6a7acc"
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -9739,126 +9780,9 @@
 					(unit 1)
 				)
 			)
-		)
-	)
-	(symbol
-		(lib_id "Hardware Components:Mech_Adafruit_326_H6.0mm")
-		(at 161.29 158.75 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6c646e5b-9993-40cf-96a0-4b6df401d26a")
-		(property "Reference" "A1"
-			(at 172.72 160.655 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Mech_Adafruit_326_H6.0mm"
-			(at 186.69 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Hardware Components Footprints:Mech_Adafruit_326_H6.0mm"
-			(at 186.69 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.adafruit.com/product/326#technical-details"
-			(at 186.69 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "Monochrome 0.96 inch 128x64 OLED Graphic Display"
-			(at 161.29 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "326"
-			(at 172.72 163.195 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left)
-			)
-		)
-		(property "Manufacturer" "Adafruit"
-			(at 186.69 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 186.69 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 186.69 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 161.29 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "robot-pmu-hw"
-				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/0ace8ed6-0bc2-4016-a404-d78c27640a39"
-					(reference "A1")
+			(project "MCU"
+				(path "/ee49a8bb-0b0b-43b7-82f7-e171cf6a7acc"
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -10022,6 +9946,12 @@
 					(unit 1)
 				)
 			)
+			(project "MCU"
+				(path "/ee49a8bb-0b0b-43b7-82f7-e171cf6a7acc"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -10084,6 +10014,12 @@
 			(project "robot-pmu-hw"
 				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/0ace8ed6-0bc2-4016-a404-d78c27640a39"
 					(reference "#PWR065")
+					(unit 1)
+				)
+			)
+			(project "MCU"
+				(path "/ee49a8bb-0b0b-43b7-82f7-e171cf6a7acc"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -10151,6 +10087,12 @@
 			(project "robot-pmu-hw"
 				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/0ace8ed6-0bc2-4016-a404-d78c27640a39"
 					(reference "#PWR067")
+					(unit 1)
+				)
+			)
+			(project "MCU"
+				(path "/ee49a8bb-0b0b-43b7-82f7-e171cf6a7acc"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -10314,6 +10256,12 @@
 					(unit 1)
 				)
 			)
+			(project "MCU"
+				(path "/ee49a8bb-0b0b-43b7-82f7-e171cf6a7acc"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -10378,6 +10326,12 @@
 			(project "robot-pmu-hw"
 				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/0ace8ed6-0bc2-4016-a404-d78c27640a39"
 					(reference "#PWR072")
+					(unit 1)
+				)
+			)
+			(project "MCU"
+				(path "/ee49a8bb-0b0b-43b7-82f7-e171cf6a7acc"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -10448,6 +10402,12 @@
 					(unit 1)
 				)
 			)
+			(project "MCU"
+				(path "/ee49a8bb-0b0b-43b7-82f7-e171cf6a7acc"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -10512,6 +10472,12 @@
 			(project "robot-pmu-hw"
 				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/0ace8ed6-0bc2-4016-a404-d78c27640a39"
 					(reference "#PWR085")
+					(unit 1)
+				)
+			)
+			(project "MCU"
+				(path "/ee49a8bb-0b0b-43b7-82f7-e171cf6a7acc"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -10660,6 +10626,12 @@
 			(project "robot-pmu-hw"
 				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/0ace8ed6-0bc2-4016-a404-d78c27640a39"
 					(reference "R67")
+					(unit 1)
+				)
+			)
+			(project "MCU"
+				(path "/ee49a8bb-0b0b-43b7-82f7-e171cf6a7acc"
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -10823,6 +10795,12 @@
 					(unit 1)
 				)
 			)
+			(project "MCU"
+				(path "/ee49a8bb-0b0b-43b7-82f7-e171cf6a7acc"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -10973,6 +10951,12 @@
 					(unit 1)
 				)
 			)
+			(project "MCU"
+				(path "/ee49a8bb-0b0b-43b7-82f7-e171cf6a7acc"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -11103,6 +11087,12 @@
 			(project "robot-pmu-hw"
 				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/0ace8ed6-0bc2-4016-a404-d78c27640a39"
 					(reference "SW2")
+					(unit 1)
+				)
+			)
+			(project "MCU"
+				(path "/ee49a8bb-0b0b-43b7-82f7-e171cf6a7acc"
+					(reference "SW?")
 					(unit 1)
 				)
 			)
@@ -11251,6 +11241,12 @@
 			(project "robot-pmu-hw"
 				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/0ace8ed6-0bc2-4016-a404-d78c27640a39"
 					(reference "R60")
+					(unit 1)
+				)
+			)
+			(project "MCU"
+				(path "/ee49a8bb-0b0b-43b7-82f7-e171cf6a7acc"
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -11414,6 +11410,12 @@
 					(unit 1)
 				)
 			)
+			(project "MCU"
+				(path "/ee49a8bb-0b0b-43b7-82f7-e171cf6a7acc"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -11494,6 +11496,12 @@
 			(project ""
 				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/0ace8ed6-0bc2-4016-a404-d78c27640a39"
 					(reference "J7")
+					(unit 1)
+				)
+			)
+			(project "MCU"
+				(path "/ee49a8bb-0b0b-43b7-82f7-e171cf6a7acc"
+					(reference "J?")
 					(unit 1)
 				)
 			)
@@ -11635,6 +11643,12 @@
 			(project ""
 				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/0ace8ed6-0bc2-4016-a404-d78c27640a39"
 					(reference "R35")
+					(unit 1)
+				)
+			)
+			(project "MCU"
+				(path "/ee49a8bb-0b0b-43b7-82f7-e171cf6a7acc"
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -11798,6 +11812,12 @@
 					(unit 1)
 				)
 			)
+			(project "MCU"
+				(path "/ee49a8bb-0b0b-43b7-82f7-e171cf6a7acc"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -11955,6 +11975,12 @@
 			(project "robot-pmu-hw"
 				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/0ace8ed6-0bc2-4016-a404-d78c27640a39"
 					(reference "C42")
+					(unit 1)
+				)
+			)
+			(project "MCU"
+				(path "/ee49a8bb-0b0b-43b7-82f7-e171cf6a7acc"
+					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -12119,6 +12145,12 @@
 					(unit 1)
 				)
 			)
+			(project "MCU"
+				(path "/ee49a8bb-0b0b-43b7-82f7-e171cf6a7acc"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -12260,6 +12292,12 @@
 					(unit 1)
 				)
 			)
+			(project "MCU"
+				(path "/ee49a8bb-0b0b-43b7-82f7-e171cf6a7acc"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -12327,6 +12365,12 @@
 					(unit 1)
 				)
 			)
+			(project "MCU"
+				(path "/ee49a8bb-0b0b-43b7-82f7-e171cf6a7acc"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -12390,6 +12434,12 @@
 			(project "robot-pmu-hw"
 				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/0ace8ed6-0bc2-4016-a404-d78c27640a39"
 					(reference "#PWR086")
+					(unit 1)
+				)
+			)
+			(project "MCU"
+				(path "/ee49a8bb-0b0b-43b7-82f7-e171cf6a7acc"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -12542,6 +12592,12 @@
 					(unit 1)
 				)
 			)
+			(project "MCU"
+				(path "/ee49a8bb-0b0b-43b7-82f7-e171cf6a7acc"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -12606,6 +12662,12 @@
 			(project "robot-pmu-hw"
 				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/0ace8ed6-0bc2-4016-a404-d78c27640a39"
 					(reference "#PWR063")
+					(unit 1)
+				)
+			)
+			(project "MCU"
+				(path "/ee49a8bb-0b0b-43b7-82f7-e171cf6a7acc"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -12676,6 +12738,12 @@
 					(unit 1)
 				)
 			)
+			(project "MCU"
+				(path "/ee49a8bb-0b0b-43b7-82f7-e171cf6a7acc"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -12740,6 +12808,12 @@
 			(project "robot-pmu-hw"
 				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/0ace8ed6-0bc2-4016-a404-d78c27640a39"
 					(reference "#PWR064")
+					(unit 1)
+				)
+			)
+			(project "MCU"
+				(path "/ee49a8bb-0b0b-43b7-82f7-e171cf6a7acc"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -12913,6 +12987,12 @@
 					(unit 1)
 				)
 			)
+			(project "MCU"
+				(path "/ee49a8bb-0b0b-43b7-82f7-e171cf6a7acc"
+					(reference "D?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -12979,6 +13059,12 @@
 					(unit 1)
 				)
 			)
+			(project "MCU"
+				(path "/ee49a8bb-0b0b-43b7-82f7-e171cf6a7acc"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -13041,6 +13127,12 @@
 			(project "robot-pmu-hw"
 				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/0ace8ed6-0bc2-4016-a404-d78c27640a39"
 					(reference "#PWR078")
+					(unit 1)
+				)
+			)
+			(project "MCU"
+				(path "/ee49a8bb-0b0b-43b7-82f7-e171cf6a7acc"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -13206,6 +13298,12 @@
 					(unit 1)
 				)
 			)
+			(project "MCU"
+				(path "/ee49a8bb-0b0b-43b7-82f7-e171cf6a7acc"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -13270,6 +13368,12 @@
 			(project "robot-pmu-hw"
 				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/0ace8ed6-0bc2-4016-a404-d78c27640a39"
 					(reference "#PWR069")
+					(unit 1)
+				)
+			)
+			(project "MCU"
+				(path "/ee49a8bb-0b0b-43b7-82f7-e171cf6a7acc"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -13546,6 +13650,12 @@
 					(unit 1)
 				)
 			)
+			(project "MCU"
+				(path "/ee49a8bb-0b0b-43b7-82f7-e171cf6a7acc"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -13685,6 +13795,12 @@
 			(project "robot-pmu-hw"
 				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/0ace8ed6-0bc2-4016-a404-d78c27640a39"
 					(reference "Y1")
+					(unit 1)
+				)
+			)
+			(project "MCU"
+				(path "/ee49a8bb-0b0b-43b7-82f7-e171cf6a7acc"
+					(reference "Y?")
 					(unit 1)
 				)
 			)
@@ -13848,6 +13964,12 @@
 					(unit 1)
 				)
 			)
+			(project "MCU"
+				(path "/ee49a8bb-0b0b-43b7-82f7-e171cf6a7acc"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -13986,6 +14108,12 @@
 			(project "robot-pmu-hw"
 				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/0ace8ed6-0bc2-4016-a404-d78c27640a39"
 					(reference "R37")
+					(unit 1)
+				)
+			)
+			(project "MCU"
+				(path "/ee49a8bb-0b0b-43b7-82f7-e171cf6a7acc"
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -14139,6 +14267,12 @@
 					(unit 1)
 				)
 			)
+			(project "MCU"
+				(path "/ee49a8bb-0b0b-43b7-82f7-e171cf6a7acc"
+					(reference "J?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -14205,6 +14339,18 @@
 					(unit 1)
 				)
 			)
+			(project "MCU"
+				(path "/ee49a8bb-0b0b-43b7-82f7-e171cf6a7acc"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
 )
