@@ -5940,6 +5940,15 @@
 				(hide yes)
 			)
 		)
+		(property "Color" ""
+			(at 83.82 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "2ad773b5-42ef-4481-a7d4-231a2d09a121")
 		)
@@ -6109,6 +6118,15 @@
 				(hide yes)
 			)
 		)
+		(property "Color" ""
+			(at 91.44 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "fda0293f-1a98-439d-8cfa-5dd8bdc1c135")
 		)
@@ -6245,7 +6263,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Hardware Components Footprints:TP_2.54mm_THT_Keystone_500x"
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
 			(at 180.34 40.64 0)
 			(effects
 				(font
@@ -6319,6 +6337,15 @@
 				(hide yes)
 			)
 		)
+		(property "Color" ""
+			(at 167.64 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e0040d5c-6969-434c-a1d0-d9d94389ceee")
 		)
@@ -6374,7 +6401,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Hardware Components Footprints:TP_2.54mm_THT_Keystone_500x"
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
 			(at 91.44 40.64 0)
 			(effects
 				(font
@@ -6445,6 +6472,15 @@
 					(thickness 0.15)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Color" ""
+			(at 78.74 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -6619,6 +6655,15 @@
 			)
 		)
 		(property "LCSC" ""
+			(at 48.26 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Color" ""
 			(at 48.26 60.96 90)
 			(effects
 				(font
@@ -6855,6 +6900,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Color" ""
+			(at 165.1 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -7098,6 +7152,15 @@
 				(hide yes)
 			)
 		)
+		(property "Color" ""
+			(at 165.1 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a42ee057-d695-4d60-911b-3c06075ac9f1")
 		)
@@ -7181,6 +7244,15 @@
 			)
 		)
 		(property "LCSC" ""
+			(at 91.44 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Color" ""
 			(at 91.44 60.96 0)
 			(effects
 				(font
@@ -7353,6 +7425,15 @@
 			)
 		)
 		(property "LCSC" ""
+			(at 135.89 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Color" ""
 			(at 135.89 55.88 0)
 			(effects
 				(font
@@ -7623,6 +7704,15 @@
 				(hide yes)
 			)
 		)
+		(property "Color" ""
+			(at 175.26 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f121269f-5957-49e1-bf88-6ee7a2bd12ff")
 		)
@@ -7776,6 +7866,15 @@
 			)
 		)
 		(property "LCSC" ""
+			(at 186.69 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Color" ""
 			(at 186.69 38.1 0)
 			(effects
 				(font
@@ -8122,6 +8221,15 @@
 				(hide yes)
 			)
 		)
+		(property "Color" ""
+			(at 66.04 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ca352489-da6e-4c38-8726-0988a0645aab")
 		)
@@ -8180,7 +8288,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Hardware Components Footprints:TP_2.54mm_THT_Keystone_500x"
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
 			(at 160.02 34.29 0)
 			(effects
 				(font
@@ -8254,13 +8362,22 @@
 				(hide yes)
 			)
 		)
+		(property "Color" ""
+			(at 147.32 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bab9ea0c-83f8-4031-ba44-ff873a93b929")
 		)
 		(instances
 			(project "robot-pmu-hw"
 				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/1f323277-181d-40d4-bd4e-44f63c004b51"
-					(reference "TP19")
+					(reference "TP45")
 					(unit 1)
 				)
 				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/3adc4156-9565-4c05-a192-d0b5e3ebe13a"
@@ -8268,11 +8385,11 @@
 					(unit 1)
 				)
 				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/c55015ba-7066-4a27-85a3-e02e5b198070"
-					(reference "TP19")
+					(reference "TP46")
 					(unit 1)
 				)
 				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/d0cd7c0d-5410-4ef7-bf95-0b680ed8181c"
-					(reference "TP19")
+					(reference "TP47")
 					(unit 1)
 				)
 			)
@@ -8501,6 +8618,15 @@
 				(hide yes)
 			)
 		)
+		(property "Color" ""
+			(at 209.55 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "faffbc9c-3c02-4591-b2ca-c5edc7b77769")
 		)
@@ -8649,6 +8775,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Color" ""
+			(at 172.72 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -8802,6 +8937,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Color" ""
+			(at 255.27 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -9097,7 +9241,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Hardware Components Footprints:TP_2.54mm_THT_Keystone_500x"
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
 			(at 149.86 72.39 0)
 			(effects
 				(font
@@ -9168,6 +9312,15 @@
 					(thickness 0.15)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Color" ""
+			(at 137.16 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -9430,6 +9583,15 @@
 				(hide yes)
 			)
 		)
+		(property "Color" ""
+			(at 193.04 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "af206a83-afea-4ffa-ba16-45e4eee2cfb7")
 		)
@@ -9581,6 +9743,15 @@
 			)
 		)
 		(property "LCSC" ""
+			(at 157.48 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Color" ""
 			(at 157.48 59.69 0)
 			(effects
 				(font
@@ -9842,6 +10013,15 @@
 			)
 		)
 		(property "LCSC" ""
+			(at 153.67 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Color" ""
 			(at 153.67 55.88 0)
 			(effects
 				(font
@@ -10267,6 +10447,15 @@
 				(hide yes)
 			)
 		)
+		(property "Color" ""
+			(at 184.15 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0c584ed1-eef3-4348-acf7-5b6df5ca9881")
 		)
@@ -10486,6 +10675,15 @@
 				(hide yes)
 			)
 		)
+		(property "Color" ""
+			(at 247.65 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "f8f1a2e3-44f1-4999-8384-963b04a43eb3")
 		)
@@ -10656,6 +10854,15 @@
 			)
 		)
 		(property "LCSC" ""
+			(at 200.66 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Color" ""
 			(at 200.66 44.45 90)
 			(effects
 				(font
@@ -10838,6 +11045,15 @@
 				(hide yes)
 			)
 		)
+		(property "Color" ""
+			(at 74.93 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8087e6c5-ef7d-4de8-adfa-a0b09d57da73")
 		)
@@ -10974,7 +11190,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Hardware Components Footprints:TP_2.54mm_THT_Keystone_500x"
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
 			(at 210.82 22.86 0)
 			(effects
 				(font
@@ -11045,6 +11261,15 @@
 					(thickness 0.15)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Color" ""
+			(at 198.12 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -11125,6 +11350,15 @@
 				(hide yes)
 			)
 		)
+		(property "Color" ""
+			(at 191.77 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "ea3be834-f47d-4436-9951-7df9e49100ef")
 		)
@@ -11195,7 +11429,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Hardware Components Footprints:TP_2.54mm_THT_Keystone_500x"
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
 			(at 181.61 58.42 0)
 			(effects
 				(font
@@ -11266,6 +11500,15 @@
 					(thickness 0.15)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Color" ""
+			(at 168.91 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -11642,6 +11885,15 @@
 				(hide yes)
 			)
 		)
+		(property "Color" ""
+			(at 87.63 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "ebb52bef-d0b1-4f67-9e82-e362a0926d43")
 		)
@@ -11838,6 +12090,15 @@
 				(hide yes)
 			)
 		)
+		(property "Color" ""
+			(at 149.86 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6728d53b-3b42-4062-aff8-6c3f42501025")
 		)
@@ -11896,7 +12157,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Hardware Components Footprints:TP_2.54mm_THT_Keystone_500x"
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
 			(at 161.29 72.39 0)
 			(effects
 				(font
@@ -11967,6 +12228,15 @@
 					(thickness 0.15)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Color" ""
+			(at 148.59 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -12134,6 +12404,15 @@
 				(hide yes)
 			)
 		)
+		(property "Color" ""
+			(at 240.03 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "aa6cc90f-758c-4e35-9583-6b06192e32b4")
 		)
@@ -12192,7 +12471,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Hardware Components Footprints:TP_2.54mm_THT_Keystone_500x"
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
 			(at 111.76 36.83 0)
 			(effects
 				(font
@@ -12263,6 +12542,15 @@
 					(thickness 0.15)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Color" ""
+			(at 99.06 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -12445,6 +12733,15 @@
 				(hide yes)
 			)
 		)
+		(property "Color" ""
+			(at 57.15 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0c0c432d-f7a7-4eef-b130-23a556ce670e")
 		)
@@ -12542,6 +12839,15 @@
 				(hide yes)
 			)
 		)
+		(property "Color" ""
+			(at 255.27 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5bf38d7d-ace9-45a1-8fda-8796cb6e709a")
 		)
@@ -12625,6 +12931,15 @@
 			)
 		)
 		(property "LCSC" ""
+			(at 209.55 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Color" ""
 			(at 209.55 55.88 0)
 			(effects
 				(font

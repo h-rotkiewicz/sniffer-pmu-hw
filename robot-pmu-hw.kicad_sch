@@ -1709,6 +1709,15 @@
 				(hide yes)
 			)
 		)
+		(property "Color" ""
+			(at 306.07 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "5caf8435-e3d7-4f32-a1f1-42ed28256ce0")
 		)
@@ -1982,6 +1991,15 @@
 				(hide yes)
 			)
 		)
+		(property "Color" ""
+			(at 306.07 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ccc148fe-4efe-4a55-a9b6-2ea9d8836c5e")
 		)
@@ -2190,6 +2208,15 @@
 				(hide yes)
 			)
 		)
+		(property "Color" ""
+			(at 306.07 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "6f489255-cee2-4dfa-99aa-a024d38d46b3")
 		)
@@ -2328,6 +2355,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Color" ""
+			(at 306.07 160.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)

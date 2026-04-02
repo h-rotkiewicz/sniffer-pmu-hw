@@ -633,6 +633,15 @@
 				(hide yes)
 			)
 		)
+		(property "Color" ""
+			(at 210.82 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "a50cef61-4dab-45ab-9646-da520d3d0efd")
 		)
@@ -715,6 +724,15 @@
 				(hide yes)
 			)
 		)
+		(property "Color" ""
+			(at 210.82 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "abd09f81-f2a3-43b6-8509-6d26d3392cd5")
 		)
@@ -783,6 +801,15 @@
 			)
 		)
 		(property "LCSC" ""
+			(at 210.82 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Color" ""
 			(at 210.82 97.79 0)
 			(effects
 				(font
