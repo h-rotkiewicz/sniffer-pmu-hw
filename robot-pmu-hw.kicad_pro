@@ -496,19 +496,6 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
-      },
-      {
-        "name": "ADC",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
-        "schematic_color": "rgba(0, 0, 0, 0.000)"
-      },
-      {
-        "line_style": 0,
-        "name": "enable",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
-        "schematic_color": "rgb(0, 0, 194)"
       }
     ],
     "meta": {
@@ -516,19 +503,14 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": [
-      {
-        "netclass": "Default",
-        "pattern": "*_en*"
-      }
-    ]
+    "netclass_patterns": []
   },
   "pcbnew": {
     "last_paths": {
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "./",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -681,10 +663,10 @@
           "show": false
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "MPN",
           "name": "MPN",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -800,7 +782,7 @@
       "include_excluded_from_bom": true,
       "name": "",
       "sort_asc": false,
-      "sort_field": "Reference"
+      "sort_field": "Value"
     },
     "connection_grid_size": 50.0,
     "drawing": {

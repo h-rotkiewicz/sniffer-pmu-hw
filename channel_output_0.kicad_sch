@@ -2508,6 +2508,286 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "ap3:AP64501QSP-13"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "IC"
+				(at 14.224 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "AP64501QSP-13"
+				(at 7.366 4.572 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "SOIC127P600X163-9N"
+				(at 26.67 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.diodes.com//assets/Datasheets/AP64501Q.pdf"
+				(at 26.67 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "DIODES INC. - AP64501QSP-13 - DC-DC Switching Synchronous Buck Regulator, Adjustable, 3.8-40 V in, 0.8-40 V out, 3 A out, HSOIC-8"
+				(at 15.24 10.414 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "1.63"
+				(at 26.67 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Diodes Incorporated"
+				(at 26.67 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "AP64501QSP-13"
+				(at 26.67 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "621-AP64501QSP-13"
+				(at 26.67 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/AP64501QSP-13?qs=IS%252B4QmGtzzqtXRaIlE2s%2FA%3D%3D"
+				(at 26.67 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" "AP64501QSP-13"
+				(at 26.67 -894.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ap64501qsp-13/diodes-incorporated.html?utm_currency=USD&region=nac"
+				(at 26.67 -994.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "AP64501QSP-13_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 25.4 -15.24)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_in line
+					(at 0 0 0)
+					(length 5.08)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -3.81 0)
+					(length 5.08)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -12.7 0)
+					(length 5.08)
+					(name "SS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 15.24 -20.32 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 30.48 0 180)
+					(length 5.08)
+					(name "BST"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 30.48 -3.81 180)
+					(length 5.08)
+					(name "SW"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 30.48 -7.62 180)
+					(length 5.08)
+					(name "FB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 30.48 -12.7 180)
+					(length 5.08)
+					(name "COMP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "lib:+15V"
 			(power)
 			(pin_numbers
@@ -4831,6 +5111,12 @@
 		(uuid "1f71ae70-02c3-4bd0-a809-bf0b5098050e")
 	)
 	(junction
+		(at 19.05 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2418cd5a-c01b-45f4-93e2-46fca33f19f8")
+	)
+	(junction
 		(at 91.44 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4867,10 +5153,28 @@
 		(uuid "40d75495-6196-4b73-85a8-54131acb307a")
 	)
 	(junction
+		(at 134.62 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "41a39b9b-bc02-4336-897d-8f0681c5f659")
+	)
+	(junction
 		(at 91.44 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "46f9d237-9deb-473b-be52-e6195c4ad153")
+	)
+	(junction
+		(at 152.4 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4eae33e1-197d-4665-a7e9-cb9e78bca1ec")
+	)
+	(junction
+		(at 93.98 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4f0d944d-2f22-46cd-ae90-dc231713e9d8")
 	)
 	(junction
 		(at 99.06 82.55)
@@ -4883,6 +5187,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "59a9cd77-a6e7-49a9-8c26-75dc3920c228")
+	)
+	(junction
+		(at 111.76 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5d631787-c45f-4231-b429-724c744b2801")
 	)
 	(junction
 		(at 91.44 88.9)
@@ -4903,6 +5213,12 @@
 		(uuid "74933830-3ef3-4936-80b7-69c7a8f0b6a3")
 	)
 	(junction
+		(at 111.76 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "76043697-d847-4adb-ba50-755b827dab30")
+	)
+	(junction
 		(at 240.03 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4921,6 +5237,18 @@
 		(uuid "803a10dc-e4e0-4c25-87d9-830dce2aec43")
 	)
 	(junction
+		(at 160.02 158.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "82e66aaa-0b89-4a04-aacd-b94c85453e5c")
+	)
+	(junction
+		(at 111.76 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b43713b4-e861-4f24-9046-0c6bef74c9b2")
+	)
+	(junction
 		(at 193.04 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4931,6 +5259,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b5131e71-4bdc-473a-9532-437b3274e735")
+	)
+	(junction
+		(at 129.54 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b7db20a4-f5b4-489c-8989-f33acc4a1c6d")
 	)
 	(junction
 		(at 66.04 80.01)
@@ -4945,10 +5279,22 @@
 		(uuid "cdc30863-65f5-4201-92f5-0c4f39c37405")
 	)
 	(junction
+		(at 143.51 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cdd48ebf-9c6e-4406-bdd7-72467d1639c3")
+	)
+	(junction
 		(at 209.55 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cf16680d-7d4c-446f-bb11-68d9754b67a4")
+	)
+	(junction
+		(at 149.86 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cf68ff2d-bd41-403e-97eb-ca2cc05833af")
 	)
 	(junction
 		(at 165.1 83.82)
@@ -4957,10 +5303,22 @@
 		(uuid "db77084d-2f9a-48e9-8b6d-06a02eb90f90")
 	)
 	(junction
+		(at 27.94 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e5f52ca9-bd00-4553-8dd1-943aa9dba63f")
+	)
+	(junction
 		(at 167.64 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e814ace3-79eb-4f4c-a35d-d1d7d0248218")
+	)
+	(junction
+		(at 88.9 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ec7a6429-27f7-4580-baf9-e8dc5f142cff")
 	)
 	(junction
 		(at 146.05 80.01)
@@ -4974,6 +5332,21 @@
 		(color 0 0 0 0)
 		(uuid "eff359e4-d0d8-4894-9256-fee8fd5f5526")
 	)
+	(junction
+		(at 125.73 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f3fc9e46-e2f6-47bc-b1e6-c3695955246b")
+	)
+	(bus_entry
+		(at 168.91 170.18)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63803009-91c6-4016-9c18-8a56cbe3179d")
+	)
 	(bus_entry
 		(at 218.44 109.22)
 		(size -2.54 2.54)
@@ -4982,6 +5355,15 @@
 			(type default)
 		)
 		(uuid "a79ff441-7a6c-4baf-b4f7-689dc62a1a2b")
+	)
+	(bus_entry
+		(at 168.91 167.64)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfdcf348-a1ab-493f-a9e4-2e8222d3ccf9")
 	)
 	(bus_entry
 		(at 218.44 106.68)
@@ -5012,6 +5394,66 @@
 		)
 		(uuid "0563b2b7-91aa-4ca9-8eaa-ad4d49bc5d4b")
 	)
+	(bus
+		(pts
+			(xy 168.91 167.64) (xy 168.91 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07fa6cc3-0a3c-4363-a31c-98793358ea33")
+	)
+	(wire
+		(pts
+			(xy 142.24 165.1) (xy 142.24 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0975a908-69f7-414e-b2ec-9aa7d02e8dc4")
+	)
+	(wire
+		(pts
+			(xy 111.76 146.05) (xy 111.76 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a5f91ce-0c55-4af0-8d02-b7b48bb1fee4")
+	)
+	(wire
+		(pts
+			(xy 165.1 177.8) (xy 165.1 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0aa3b313-3418-4572-b922-4c03521c5bb7")
+	)
+	(wire
+		(pts
+			(xy 125.73 140.97) (xy 125.73 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ca314b3-85d6-47e6-be4d-cb0b841970df")
+	)
+	(wire
+		(pts
+			(xy 165.1 175.26) (xy 152.4 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d71b141-e7ac-4f23-81d7-5508693e7e32")
+	)
 	(wire
 		(pts
 			(xy 177.8 80.01) (xy 184.15 80.01)
@@ -5034,6 +5476,16 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 149.86) (xy 100.33 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12756390-635e-4a6d-a899-df8b16de4fb2")
+	)
+	(wire
+		(pts
 			(xy 78.74 80.01) (xy 91.44 80.01)
 		)
 		(stroke
@@ -5041,6 +5493,16 @@
 			(type default)
 		)
 		(uuid "1361d64a-365c-43b8-b1d1-5921731ece43")
+	)
+	(wire
+		(pts
+			(xy 53.34 146.05) (xy 53.34 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1387b68e-4737-43c5-b796-cb0a34150b9f")
 	)
 	(bus
 		(pts
@@ -5054,6 +5516,56 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 140.97) (xy 125.73 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1477484a-7906-4978-9714-20c300e03525")
+	)
+	(wire
+		(pts
+			(xy 143.51 140.97) (xy 154.94 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16908a2a-eb73-46c5-a16e-c4064b6f32b7")
+	)
+	(bus
+		(pts
+			(xy 168.91 166.37) (xy 168.91 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17c6649a-eefd-4cf6-bcef-e71e96371dbf")
+	)
+	(wire
+		(pts
+			(xy 93.98 137.16) (xy 92.71 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "180c5082-a82d-43b9-8849-cc829a23a137")
+	)
+	(wire
+		(pts
+			(xy 134.62 140.97) (xy 134.62 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1aa13be2-7c0f-4b26-8620-e622cf0d4b8d")
+	)
+	(wire
+		(pts
 			(xy 165.1 97.79) (xy 168.91 97.79)
 		)
 		(stroke
@@ -5061,6 +5573,66 @@
 			(type default)
 		)
 		(uuid "1ff82fd6-0ae1-49c5-9a0e-d42f05d090be")
+	)
+	(wire
+		(pts
+			(xy 152.4 170.18) (xy 166.37 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2015bca8-cf2e-483f-abde-1df5c769ad64")
+	)
+	(wire
+		(pts
+			(xy 88.9 149.86) (xy 100.33 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20404faa-0240-4ee5-bbc9-e430414477cc")
+	)
+	(wire
+		(pts
+			(xy 111.76 147.32) (xy 111.76 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21a6531c-864d-4163-88b4-1b7df9eaf484")
+	)
+	(wire
+		(pts
+			(xy 86.36 147.32) (xy 86.36 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "226493f0-00e4-4005-907a-8d2972c0a4ca")
+	)
+	(wire
+		(pts
+			(xy 88.9 157.48) (xy 88.9 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "299706ef-16ed-4918-b2fa-e1ba108f96e3")
+	)
+	(wire
+		(pts
+			(xy 55.88 149.86) (xy 53.34 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a56d923-0e72-4e53-8bfe-773cbc23cdc8")
 	)
 	(wire
 		(pts
@@ -5094,6 +5666,26 @@
 	)
 	(wire
 		(pts
+			(xy 86.36 140.97) (xy 93.98 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3130dfde-ded3-4272-aa6c-a2ab02d4c23b")
+	)
+	(wire
+		(pts
+			(xy 123.19 157.48) (xy 132.08 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3328aa43-f0d6-46b4-81e7-18dcdd714ecd")
+	)
+	(wire
+		(pts
 			(xy 198.12 62.23) (xy 200.66 62.23)
 		)
 		(stroke
@@ -5111,6 +5703,16 @@
 			(type default)
 		)
 		(uuid "38f84974-bebc-4a1a-ac95-3d85f6c23cfb")
+	)
+	(wire
+		(pts
+			(xy 154.94 143.51) (xy 154.94 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39c9353e-67b1-4cee-9753-9083d1aa99a1")
 	)
 	(wire
 		(pts
@@ -5154,7 +5756,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 105.41) (xy 165.1 111.76)
+			(xy 165.1 105.41) (xy 165.1 107.95)
 		)
 		(stroke
 			(width 0)
@@ -5171,6 +5773,26 @@
 			(type default)
 		)
 		(uuid "429eac3e-fe76-4dbe-8914-0dfeb710ef8e")
+	)
+	(wire
+		(pts
+			(xy 93.98 137.16) (xy 93.98 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "441a8f53-6e4e-46ca-9656-bafa8c9238dc")
+	)
+	(wire
+		(pts
+			(xy 149.86 128.27) (xy 152.4 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "445ca922-f0de-41f5-b85e-ba7d2288acc0")
 	)
 	(wire
 		(pts
@@ -5194,6 +5816,26 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 158.75) (xy 160.02 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47c36d7f-8e67-4bb8-9d50-4745ce9b81f2")
+	)
+	(wire
+		(pts
+			(xy 53.34 140.97) (xy 55.88 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47eaa409-eb85-4333-9686-4de4f4815749")
+	)
+	(wire
+		(pts
 			(xy 100.33 93.98) (xy 100.33 96.52)
 		)
 		(stroke
@@ -5201,6 +5843,36 @@
 			(type default)
 		)
 		(uuid "491a233e-52be-4618-b8c6-72ff16837610")
+	)
+	(wire
+		(pts
+			(xy 16.51 135.89) (xy 16.51 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bc9142a-219e-47a0-a3ec-401d66c52416")
+	)
+	(wire
+		(pts
+			(xy 149.86 128.27) (xy 149.86 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bc9433c-943a-4d1f-b333-b489259d666c")
+	)
+	(wire
+		(pts
+			(xy 27.94 137.16) (xy 55.88 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e7177cb-7523-41dd-9bf4-51ffa6a547af")
 	)
 	(wire
 		(pts
@@ -5224,6 +5896,26 @@
 	)
 	(wire
 		(pts
+			(xy 143.51 140.97) (xy 143.51 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "574d5132-cc9a-415e-b096-baad9e09211d")
+	)
+	(wire
+		(pts
+			(xy 16.51 137.16) (xy 19.05 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57e7f150-7567-4f18-81cd-31039eeb95fd")
+	)
+	(wire
+		(pts
 			(xy 240.03 116.84) (xy 240.03 119.38)
 		)
 		(stroke
@@ -5231,6 +5923,16 @@
 			(type default)
 		)
 		(uuid "583eea20-e032-4108-8fdc-ecf5c6aaba0e")
+	)
+	(bus
+		(pts
+			(xy 170.18 165.1) (xy 168.91 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "589d3466-f091-48a4-81db-b4e7ba438449")
 	)
 	(wire
 		(pts
@@ -5241,6 +5943,16 @@
 			(type default)
 		)
 		(uuid "5b03e903-c5a5-4269-8987-dd4bc98b9f24")
+	)
+	(wire
+		(pts
+			(xy 138.43 128.27) (xy 129.54 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6078aa0d-1c3c-4b09-b0e6-8fbedd68d580")
 	)
 	(wire
 		(pts
@@ -5284,6 +5996,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 149.86) (xy 88.9 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b253227-2350-4b29-9fbf-cf1d84547726")
+	)
+	(wire
+		(pts
 			(xy 91.44 88.9) (xy 99.06 88.9)
 		)
 		(stroke
@@ -5304,6 +6026,16 @@
 	)
 	(wire
 		(pts
+			(xy 125.73 140.97) (xy 129.54 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79a05345-23a8-4ab9-9fe7-8bff1ee36ef3")
+	)
+	(wire
+		(pts
 			(xy 66.04 80.01) (xy 74.93 80.01)
 		)
 		(stroke
@@ -5311,6 +6043,16 @@
 			(type default)
 		)
 		(uuid "79fc8de6-7ffb-405c-80bb-e6811a13520e")
+	)
+	(wire
+		(pts
+			(xy 93.98 140.97) (xy 97.79 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bc05328-ec6f-4991-bc69-83e310e41e88")
 	)
 	(wire
 		(pts
@@ -5341,6 +6083,16 @@
 			(type default)
 		)
 		(uuid "8282f8f0-8c27-44ff-bdcf-6bfa28be131e")
+	)
+	(wire
+		(pts
+			(xy 152.4 172.72) (xy 166.37 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84fe7bca-0271-4e25-b2b4-87bd71851b25")
 	)
 	(wire
 		(pts
@@ -5384,6 +6136,36 @@
 	)
 	(wire
 		(pts
+			(xy 132.08 157.48) (xy 132.08 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "965b83e3-5131-4da4-b000-2fc3f913e470")
+	)
+	(wire
+		(pts
+			(xy 129.54 140.97) (xy 134.62 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "967ba78b-25f7-4aaf-8343-4e7a90c343fb")
+	)
+	(wire
+		(pts
+			(xy 100.33 165.1) (xy 100.33 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96b7f608-9ec8-4350-8a39-50760a396b1b")
+	)
+	(wire
+		(pts
 			(xy 177.8 62.23) (xy 177.8 80.01)
 		)
 		(stroke
@@ -5391,6 +6173,16 @@
 			(type default)
 		)
 		(uuid "96f555cb-e5a4-4dc8-92ee-9c3d6882e39c")
+	)
+	(wire
+		(pts
+			(xy 143.51 128.27) (xy 149.86 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a491271-3c2c-4901-bc91-3348999610c0")
 	)
 	(bus
 		(pts
@@ -5411,6 +6203,26 @@
 			(type default)
 		)
 		(uuid "9d9490ca-d3a1-41fd-9897-ca775ab34461")
+	)
+	(wire
+		(pts
+			(xy 86.36 137.16) (xy 87.63 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9da4a80b-0da4-4d73-baab-4eb0c32c7ded")
+	)
+	(wire
+		(pts
+			(xy 111.76 147.32) (xy 86.36 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9decc725-1a3a-49a6-946f-c8997949006f")
 	)
 	(wire
 		(pts
@@ -5451,6 +6263,16 @@
 			(type default)
 		)
 		(uuid "a7aecd0e-424b-4cce-a8a7-d7a657a10220")
+	)
+	(wire
+		(pts
+			(xy 53.34 149.86) (xy 53.34 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa26fcd9-4bed-406e-8640-d73fd5ab821f")
 	)
 	(wire
 		(pts
@@ -5534,6 +6356,16 @@
 	)
 	(wire
 		(pts
+			(xy 19.05 137.16) (xy 27.94 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b97b661f-e033-4aff-a880-e47ec33213ea")
+	)
+	(wire
+		(pts
 			(xy 44.45 80.01) (xy 48.26 80.01)
 		)
 		(stroke
@@ -5554,6 +6386,16 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 146.05) (xy 43.18 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbf39b90-2fa8-4437-8ab0-8f327f18584d")
+	)
+	(wire
+		(pts
 			(xy 132.08 96.52) (xy 132.08 97.79)
 		)
 		(stroke
@@ -5571,6 +6413,16 @@
 			(type default)
 		)
 		(uuid "bd87b996-ac8e-4038-a2c2-83ad9e8967e2")
+	)
+	(wire
+		(pts
+			(xy 86.36 149.86) (xy 88.9 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be385d26-1505-49c4-825a-a84e125e863e")
 	)
 	(wire
 		(pts
@@ -5624,6 +6476,26 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 128.27) (xy 129.54 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9c6890d-7dc0-4717-90fd-7d86c97191e8")
+	)
+	(wire
+		(pts
+			(xy 111.76 157.48) (xy 118.11 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca94a5cb-cee3-453f-96cd-44f4dae3a2c6")
+	)
+	(wire
+		(pts
 			(xy 57.15 80.01) (xy 66.04 80.01)
 		)
 		(stroke
@@ -5674,6 +6546,16 @@
 	)
 	(wire
 		(pts
+			(xy 134.62 140.97) (xy 143.51 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1c37b39-4864-4c05-af82-c95590b20431")
+	)
+	(wire
+		(pts
 			(xy 193.04 80.01) (xy 204.47 80.01)
 		)
 		(stroke
@@ -5691,6 +6573,26 @@
 			(type default)
 		)
 		(uuid "e66fc8c9-fbff-4d32-b210-4ba4ddda9c8e")
+	)
+	(wire
+		(pts
+			(xy 152.4 128.27) (xy 152.4 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6b519c2-3316-41b3-9bb0-f5a451a672f1")
+	)
+	(wire
+		(pts
+			(xy 111.76 157.48) (xy 111.76 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea2db2b5-b9ee-4666-9b46-b1789dfbaae7")
 	)
 	(wire
 		(pts
@@ -5724,13 +6626,53 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 116.84) (xy 165.1 118.11)
+			(xy 102.87 140.97) (xy 111.76 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef38eb06-60ee-4a67-8253-94bf806e581e")
+	)
+	(wire
+		(pts
+			(xy 48.26 146.05) (xy 53.34 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5168e28-825f-46c7-9fbb-abbe9fbbc760")
+	)
+	(wire
+		(pts
+			(xy 165.1 113.03) (xy 165.1 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f9ba1f7d-6f54-48c5-959d-c3977a738bef")
+	)
+	(bus
+		(pts
+			(xy 170.18 165.1) (xy 172.72 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb2a2f5c-3e71-4e3b-aab4-2198d7c615a8")
+	)
+	(wire
+		(pts
+			(xy 152.4 128.27) (xy 157.48 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbfb71ff-b1e3-4644-950f-360282aee116")
 	)
 	(label "pg"
 		(at 132.08 87.63 0)
@@ -5741,6 +6683,16 @@
 			(justify left bottom)
 		)
 		(uuid "11c46c4d-e7b5-4595-bce1-2052ee8dc509")
+	)
+	(label "SDA{I2C_{2}}"
+		(at 152.4 170.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "70a02245-72ec-4dfb-bf97-97f373045fb9")
 	)
 	(label "pg"
 		(at 236.22 119.38 0)
@@ -5772,6 +6724,16 @@
 		)
 		(uuid "e7210bc9-41ab-41d4-8f74-dba415da4d9e")
 	)
+	(label "SCL{I2C_{2}}"
+		(at 152.4 172.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fec4057b-4cb1-4991-b3f5-fcbb6a6f51b9")
+	)
 	(hierarchical_label "{I2C}"
 		(shape input)
 		(at 222.25 104.14 0)
@@ -5796,6 +6758,17 @@
 	)
 	(hierarchical_label "CH_ADC"
 		(shape input)
+		(at 157.48 128.27 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7fa137ba-ae99-466d-9333-37a0d846d070")
+	)
+	(hierarchical_label "CH_ADC"
+		(shape input)
 		(at 205.74 62.23 0)
 		(effects
 			(font
@@ -5804,6 +6777,28 @@
 			(justify left)
 		)
 		(uuid "81184e99-cd95-4f67-9c90-78004b69ac01")
+	)
+	(hierarchical_label "{I2C}"
+		(shape input)
+		(at 172.72 165.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8aee5733-a31a-4d68-ab5f-0175a9e1ef03")
+	)
+	(hierarchical_label "ch_en"
+		(shape bidirectional)
+		(at 40.64 146.05 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ff0a2966-fa89-45b9-85fe-82d229f7479e")
 	)
 	(symbol
 		(lib_id "lib:R_0R_0402")
@@ -5980,6 +6975,84 @@
 				)
 				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/d0cd7c0d-5410-4ef7-bf95-0b680ed8181c"
 					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lib:+15V")
+		(at 16.51 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "01969657-86d9-48df-bddc-fb9bfa2896fb")
+		(property "Reference" "#PWR017"
+			(at 16.51 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+16V"
+			(at 16.51 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 16.51 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 16.51 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+15V\""
+			(at 16.51 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b53e4f40-6e1f-4b0c-8c37-b65253399992")
+		)
+		(instances
+			(project "robot-pmu-hw"
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/1f323277-181d-40d4-bd4e-44f63c004b51"
+					(reference "#PWR037")
+					(unit 1)
+				)
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/3adc4156-9565-4c05-a192-d0b5e3ebe13a"
+					(reference "#PWR017")
+					(unit 1)
+				)
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/c55015ba-7066-4a27-85a3-e02e5b198070"
+					(reference "#PWR099")
+					(unit 1)
+				)
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/d0cd7c0d-5410-4ef7-bf95-0b680ed8181c"
+					(reference "#PWR0107")
 					(unit 1)
 				)
 			)
@@ -6164,8 +7237,340 @@
 		)
 	)
 	(symbol
+		(lib_id "Hardware Components:R_160k_0402")
+		(at 111.76 165.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "06c71ee3-7887-474d-8999-eaa397c51554")
+		(property "Reference" "R72"
+			(at 114.3 161.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "R_160k_0402"
+			(at 124.46 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Hardware Components Footprints:R_0402_1005Metric"
+			(at 127 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
+			(at 129.54 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Chip Resistor, Ceramic, 160 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film"
+			(at 111.76 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CR0402-FX-1603GLF"
+			(at 132.08 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Bourns"
+			(at 134.62 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 137.16 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 139.7 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "10k"
+			(at 114.3 163.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 121.92 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Color" ""
+			(at 111.76 165.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a29e61e4-0d49-4fcc-a1c3-fa365d537b7d")
+		)
+		(pin "2"
+			(uuid "0bfc6a19-efea-4272-8ca7-61681172a42d")
+		)
+		(instances
+			(project "robot-pmu-hw"
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/1f323277-181d-40d4-bd4e-44f63c004b51"
+					(reference "R73")
+					(unit 1)
+				)
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/3adc4156-9565-4c05-a192-d0b5e3ebe13a"
+					(reference "R72")
+					(unit 1)
+				)
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/c55015ba-7066-4a27-85a3-e02e5b198070"
+					(reference "R74")
+					(unit 1)
+				)
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/d0cd7c0d-5410-4ef7-bf95-0b680ed8181c"
+					(reference "R75")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lib:R_100R_0402")
+		(at 138.43 128.27 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0a37a8a1-98f9-49da-882b-661ec6a85271")
+		(property "Reference" "R80"
+			(at 140.97 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "R_100R_0402"
+			(at 158.75 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Hardware Components Footprints:R_0402_1005Metric"
+			(at 158.75 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
+			(at 158.75 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Chip Resistor, 100 ohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
+			(at 138.43 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CR0402-FX-1000GLF"
+			(at 158.75 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Bourns"
+			(at 158.75 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 158.75 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 158.75 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "100R"
+			(at 140.97 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 158.75 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 138.43 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Color" ""
+			(at 138.43 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "91ead408-beb3-4775-b62e-78ba4918ffa8")
+		)
+		(pin "1"
+			(uuid "693dab08-d9cc-4f1d-afb2-5362a61e765e")
+		)
+		(instances
+			(project "robot-pmu-hw"
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/1f323277-181d-40d4-bd4e-44f63c004b51"
+					(reference "R81")
+					(unit 1)
+				)
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/3adc4156-9565-4c05-a192-d0b5e3ebe13a"
+					(reference "R80")
+					(unit 1)
+				)
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/c55015ba-7066-4a27-85a3-e02e5b198070"
+					(reference "R82")
+					(unit 1)
+				)
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/d0cd7c0d-5410-4ef7-bf95-0b680ed8181c"
+					(reference "R83")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "lib:GND")
-		(at 137.16 111.76 0)
+		(at 142.24 102.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6174,7 +7579,7 @@
 		(fields_autoplaced yes)
 		(uuid "0a95c2a4-0ab8-498d-b5a4-d70a17326720")
 		(property "Reference" "#PWR0126"
-			(at 137.16 118.11 0)
+			(at 142.24 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6183,7 +7588,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 137.16 116.84 0)
+			(at 142.24 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6191,7 +7596,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 137.16 111.76 0)
+			(at 142.24 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6200,7 +7605,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 137.16 111.76 0)
+			(at 142.24 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6209,7 +7614,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 137.16 111.76 0)
+			(at 142.24 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6847,6 +8252,168 @@
 		)
 	)
 	(symbol
+		(lib_id "Hardware Components:R_160k_0402")
+		(at 88.9 157.48 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "10cb883e-d403-4d10-8b26-2e9a76252799")
+		(property "Reference" "R48"
+			(at 91.44 153.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "R_160k_0402"
+			(at 101.6 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Hardware Components Footprints:R_0402_1005Metric"
+			(at 104.14 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
+			(at 106.68 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Chip Resistor, Ceramic, 160 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film"
+			(at 88.9 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CR0402-FX-1603GLF"
+			(at 109.22 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Bourns"
+			(at 111.76 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 114.3 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 116.84 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "37.4k"
+			(at 91.44 156.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 99.06 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Color" ""
+			(at 88.9 157.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b9da5b03-be2f-4d3d-b1b5-028a0f84d673")
+		)
+		(pin "2"
+			(uuid "4dcafd33-4cb1-44b9-a5dc-90b40595c97d")
+		)
+		(instances
+			(project "robot-pmu-hw"
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/1f323277-181d-40d4-bd4e-44f63c004b51"
+					(reference "R49")
+					(unit 1)
+				)
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/3adc4156-9565-4c05-a192-d0b5e3ebe13a"
+					(reference "R48")
+					(unit 1)
+				)
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/c55015ba-7066-4a27-85a3-e02e5b198070"
+					(reference "R50")
+					(unit 1)
+				)
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/d0cd7c0d-5410-4ef7-bf95-0b680ed8181c"
+					(reference "R58")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "lib:GND")
 		(at 48.26 85.09 0)
 		(unit 1)
@@ -6919,6 +8486,84 @@
 				)
 				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/d0cd7c0d-5410-4ef7-bf95-0b680ed8181c"
 					(reference "#PWR045")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lib:GND")
+		(at 134.62 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "15e5e92e-49bd-4468-8e22-0eba50447b2e")
+		(property "Reference" "#PWR0183"
+			(at 134.62 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 134.62 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 134.62 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 134.62 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d2311fb0-aa53-4840-ba93-1e639ab727fd")
+		)
+		(instances
+			(project "robot-pmu-hw"
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/1f323277-181d-40d4-bd4e-44f63c004b51"
+					(reference "#PWR0186")
+					(unit 1)
+				)
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/3adc4156-9565-4c05-a192-d0b5e3ebe13a"
+					(reference "#PWR0183")
+					(unit 1)
+				)
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/c55015ba-7066-4a27-85a3-e02e5b198070"
+					(reference "#PWR0189")
+					(unit 1)
+				)
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/d0cd7c0d-5410-4ef7-bf95-0b680ed8181c"
+					(reference "#PWR0192")
 					(unit 1)
 				)
 			)
@@ -7087,6 +8732,275 @@
 		)
 	)
 	(symbol
+		(lib_id "Hardware Components:C_10u_1206")
+		(at 19.05 142.24 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "16c2f755-f120-440c-adbd-2af088d18c87")
+		(property "Reference" "C65"
+			(at 21.59 138.4236 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "C_10u_1206"
+			(at 29.21 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Hardware Components Footprints:C_1206_3216Metric"
+			(at 31.75 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=CGA5L1X7R1V106K160AE"
+			(at 34.29 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 10 µF, 35 V, 1206 [3216 Metric], ± 10%, X7R"
+			(at 19.05 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CGA5L1X7R1V106K160AE"
+			(at 36.83 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TDK"
+			(at 39.37 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 41.91 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 44.45 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "10u"
+			(at 21.59 140.9636 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Voltage" ""
+			(at 46.99 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" ""
+			(at 49.53 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Public" "False"
+			(at 52.07 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 19.05 142.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Color" ""
+			(at 19.05 142.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fc842a34-33bb-4fc7-9f5a-5865aa9ee074")
+		)
+		(pin "2"
+			(uuid "55cd097d-db81-497e-818f-9bcb929622e8")
+		)
+		(instances
+			(project "robot-pmu-hw"
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/1f323277-181d-40d4-bd4e-44f63c004b51"
+					(reference "C66")
+					(unit 1)
+				)
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/3adc4156-9565-4c05-a192-d0b5e3ebe13a"
+					(reference "C65")
+					(unit 1)
+				)
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/c55015ba-7066-4a27-85a3-e02e5b198070"
+					(reference "C67")
+					(unit 1)
+				)
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/d0cd7c0d-5410-4ef7-bf95-0b680ed8181c"
+					(reference "C68")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lib:GND")
+		(at 100.33 165.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "189a5a80-acfb-4d70-b889-684a6a673133")
+		(property "Reference" "#PWR0170"
+			(at 100.33 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 100.33 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.33 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 100.33 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e6081392-c960-431b-abac-7b698c0139ce")
+		)
+		(instances
+			(project "robot-pmu-hw"
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/1f323277-181d-40d4-bd4e-44f63c004b51"
+					(reference "#PWR0171")
+					(unit 1)
+				)
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/3adc4156-9565-4c05-a192-d0b5e3ebe13a"
+					(reference "#PWR0170")
+					(unit 1)
+				)
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/c55015ba-7066-4a27-85a3-e02e5b198070"
+					(reference "#PWR0172")
+					(unit 1)
+				)
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/d0cd7c0d-5410-4ef7-bf95-0b680ed8181c"
+					(reference "#PWR0173")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "lib:GND")
 		(at 132.08 97.79 0)
 		(unit 1)
@@ -7165,27 +9079,104 @@
 		)
 	)
 	(symbol
-		(lib_id "lib:R_10k_0402")
-		(at 165.1 116.84 90)
+		(lib_id "lib:GND")
+		(at 160.02 163.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1a0933d3-4da6-4ef3-a159-7b22f3457d91")
+		(property "Reference" "#PWR0196"
+			(at 160.02 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 164.338 166.624 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 160.02 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 160.02 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "974b6cf1-60c4-4b63-ad80-a17be34bdf71")
+		)
+		(instances
+			(project "robot-pmu-hw"
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/1f323277-181d-40d4-bd4e-44f63c004b51"
+					(reference "#PWR0199")
+					(unit 1)
+				)
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/3adc4156-9565-4c05-a192-d0b5e3ebe13a"
+					(reference "#PWR0196")
+					(unit 1)
+				)
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/c55015ba-7066-4a27-85a3-e02e5b198070"
+					(reference "#PWR0202")
+					(unit 1)
+				)
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/d0cd7c0d-5410-4ef7-bf95-0b680ed8181c"
+					(reference "#PWR0205")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Hardware Components:R_51k_0402")
+		(at 118.11 157.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "30482e49-8a6a-4107-a191-65a7839f3e36")
-		(property "Reference" "R56"
-			(at 167.64 113.03 90)
+		(uuid "2d95da35-0ac8-4958-9d4d-0ee3443f49a7")
+		(property "Reference" "R76"
+			(at 120.65 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "R_10k_0402"
-			(at 177.8 96.52 0)
+		(property "Value" "R_51k_0402"
+			(at 138.43 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7196,7 +9187,7 @@
 			)
 		)
 		(property "Footprint" "Hardware Components Footprints:R_0402_1005Metric"
-			(at 180.34 96.52 0)
+			(at 138.43 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7207,7 +9198,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
-			(at 182.88 96.52 0)
+			(at 138.43 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7217,8 +9208,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD Chip Resistor, 10 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
-			(at 165.1 116.84 0)
+		(property "Description" "SMD Chip Resistor, 51 kohm, ± 1%, 63 mW, 0402 [1005 Metric], Thick Film, General Purpose"
+			(at 118.11 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7226,8 +9217,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CR0402-FX-1002GLF"
-			(at 185.42 96.52 0)
+		(property "MPN" "CR0402-FX-5102GLF"
+			(at 138.43 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7238,7 +9229,7 @@
 			)
 		)
 		(property "Manufacturer" "Bourns"
-			(at 187.96 96.52 0)
+			(at 138.43 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7249,7 +9240,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 190.5 96.52 0)
+			(at 138.43 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7260,7 +9251,168 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 193.04 96.52 0)
+			(at 138.43 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "51k"
+			(at 120.65 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 138.43 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Color" ""
+			(at 118.11 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "901dbc0f-5db1-4f04-bb7e-664a1f114ff8")
+		)
+		(pin "1"
+			(uuid "ffacbf19-8dea-4b79-8442-c89ecaf3c0d6")
+		)
+		(instances
+			(project "robot-pmu-hw"
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/1f323277-181d-40d4-bd4e-44f63c004b51"
+					(reference "R77")
+					(unit 1)
+				)
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/3adc4156-9565-4c05-a192-d0b5e3ebe13a"
+					(reference "R76")
+					(unit 1)
+				)
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/c55015ba-7066-4a27-85a3-e02e5b198070"
+					(reference "R78")
+					(unit 1)
+				)
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/d0cd7c0d-5410-4ef7-bf95-0b680ed8181c"
+					(reference "R79")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lib:R_10k_0402")
+		(at 165.1 113.03 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "30482e49-8a6a-4107-a191-65a7839f3e36")
+		(property "Reference" "R56"
+			(at 167.64 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "R_10k_0402"
+			(at 177.8 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Hardware Components Footprints:R_0402_1005Metric"
+			(at 180.34 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
+			(at 182.88 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Chip Resistor, 10 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
+			(at 165.1 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CR0402-FX-1002GLF"
+			(at 185.42 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Bourns"
+			(at 187.96 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 190.5 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 193.04 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7271,7 +9423,7 @@
 			)
 		)
 		(property "Val" "10k"
-			(at 167.64 115.57 90)
+			(at 167.64 111.76 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7281,7 +9433,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 175.26 96.52 0)
+			(at 175.26 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7291,7 +9443,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 165.1 116.84 90)
+			(at 165.1 113.03 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7300,7 +9452,7 @@
 			)
 		)
 		(property "Color" ""
-			(at 165.1 116.84 90)
+			(at 165.1 113.03 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7430,6 +9582,199 @@
 				)
 				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/d0cd7c0d-5410-4ef7-bf95-0b680ed8181c"
 					(reference "R23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Hardware Components:C_22u_25V_X7R_1210")
+		(at 134.62 148.59 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "38cfef73-06be-45f8-82ad-47234da355e2")
+		(property "Reference" "C94"
+			(at 137.16 144.7736 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "C_22u_25V_X7R_1210"
+			(at 144.78 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Hardware Components Footprints:C_1210_3225Metric"
+			(at 147.32 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.kemet.com/en/us/capacitors/product/C1210C226K3RAC7210.html"
+			(at 149.86 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 22µF, 25V, 1210, ±10%, X7R"
+			(at 134.62 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C1210C226K3RAC7210"
+			(at 152.4 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "22u"
+			(at 137.16 147.3136 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Voltage" "25V"
+			(at 154.94 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 157.48 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KEMET"
+			(at 160.02 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 162.56 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 165.1 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Public" "False"
+			(at 167.64 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 134.62 148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Color" ""
+			(at 134.62 148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b6f34d89-cd52-4770-bd10-650107e26ed4")
+		)
+		(pin "2"
+			(uuid "d515f85a-9864-41cb-b683-18ab4caccd66")
+		)
+		(instances
+			(project "robot-pmu-hw"
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/1f323277-181d-40d4-bd4e-44f63c004b51"
+					(reference "C97")
+					(unit 1)
+				)
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/3adc4156-9565-4c05-a192-d0b5e3ebe13a"
+					(reference "C94")
+					(unit 1)
+				)
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/c55015ba-7066-4a27-85a3-e02e5b198070"
+					(reference "C108")
+					(unit 1)
+				)
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/d0cd7c0d-5410-4ef7-bf95-0b680ed8181c"
+					(reference "C111")
 					(unit 1)
 				)
 			)
@@ -8405,6 +10750,197 @@
 		)
 	)
 	(symbol
+		(lib_id "Hardware Components:C_10u_1206")
+		(at 100.33 161.29 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4687e5f0-acd4-4187-af2e-9d87305f55b5")
+		(property "Reference" "C81"
+			(at 102.87 157.4736 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "C_10u_1206"
+			(at 110.49 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Hardware Components Footprints:C_1206_3216Metric"
+			(at 113.03 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=CGA5L1X7R1V106K160AE"
+			(at 115.57 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 10 µF, 35 V, 1206 [3216 Metric], ± 10%, X7R"
+			(at 100.33 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CGA5L1X7R1V106K160AE"
+			(at 118.11 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TDK"
+			(at 120.65 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 123.19 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 125.73 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "15p"
+			(at 102.87 160.0136 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Voltage" ""
+			(at 128.27 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" ""
+			(at 130.81 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Public" "False"
+			(at 133.35 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 100.33 161.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Color" ""
+			(at 100.33 161.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "689e6980-ff32-46fb-8765-f7ab2b1a3d72")
+		)
+		(pin "2"
+			(uuid "2c00e6dc-1ce1-4e6e-903b-162625b0992b")
+		)
+		(instances
+			(project "robot-pmu-hw"
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/1f323277-181d-40d4-bd4e-44f63c004b51"
+					(reference "C82")
+					(unit 1)
+				)
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/3adc4156-9565-4c05-a192-d0b5e3ebe13a"
+					(reference "C81")
+					(unit 1)
+				)
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/c55015ba-7066-4a27-85a3-e02e5b198070"
+					(reference "C83")
+					(unit 1)
+				)
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/d0cd7c0d-5410-4ef7-bf95-0b680ed8181c"
+					(reference "C84")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Hardware Components:TP_2.54mm_THT_5002")
 		(at 147.32 73.66 90)
 		(unit 1)
@@ -8796,6 +11332,222 @@
 				)
 				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/d0cd7c0d-5410-4ef7-bf95-0b680ed8181c"
 					(reference "C60")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lib:GND")
+		(at 71.12 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "57da2fe1-9200-4a3c-9a52-980f550e4742")
+		(property "Reference" "#PWR0150"
+			(at 71.12 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 71.12 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.12 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 71.12 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "02d23c33-16e1-43a9-a528-c7437ede8dbc")
+		)
+		(instances
+			(project "robot-pmu-hw"
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/1f323277-181d-40d4-bd4e-44f63c004b51"
+					(reference "#PWR0151")
+					(unit 1)
+				)
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/3adc4156-9565-4c05-a192-d0b5e3ebe13a"
+					(reference "#PWR0150")
+					(unit 1)
+				)
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/c55015ba-7066-4a27-85a3-e02e5b198070"
+					(reference "#PWR0152")
+					(unit 1)
+				)
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/d0cd7c0d-5410-4ef7-bf95-0b680ed8181c"
+					(reference "#PWR0153")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Hardware Components:TP_2.54mm_THT_5002")
+		(at 165.1 177.8 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5cbfdb7d-7da9-4d1c-a39a-9211b039197a")
+		(property "Reference" "TP41"
+			(at 167.64 179.705 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TP_2.54mm_THT_5002"
+			(at 154.94 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+			(at 152.4 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.keyelco.com/product-pdf.cfm?p=1311"
+			(at 149.86 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Testpoint THT"
+			(at 165.1 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "5002"
+			(at 167.64 182.245 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer" "Keystone Electronics"
+			(at 147.32 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 144.78 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 142.24 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Color" ""
+			(at 165.1 177.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "32bdf89c-e038-489a-86a4-26eafeb86386")
+		)
+		(instances
+			(project "robot-pmu-hw"
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/1f323277-181d-40d4-bd4e-44f63c004b51"
+					(reference "TP42")
+					(unit 1)
+				)
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/3adc4156-9565-4c05-a192-d0b5e3ebe13a"
+					(reference "TP41")
+					(unit 1)
+				)
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/c55015ba-7066-4a27-85a3-e02e5b198070"
+					(reference "TP43")
+					(unit 1)
+				)
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/d0cd7c0d-5410-4ef7-bf95-0b680ed8181c"
+					(reference "TP44")
 					(unit 1)
 				)
 			)
@@ -9280,6 +12032,190 @@
 		)
 	)
 	(symbol
+		(lib_id "lib:C_100n_50V_X8L_0402")
+		(at 152.4 134.62 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6ffcaeab-e6b1-402a-87b3-03c1649c025e")
+		(property "Reference" "C113"
+			(at 154.94 130.8036 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C_100n_50V_X8L_0402"
+			(at 129.54 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Hardware Components Footprints:C_0402_1005Metric"
+			(at 127 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GCM155L8EH104KE07%23"
+			(at 124.46 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 100nF, 50V, 0402, ±10%, X8L"
+			(at 152.4 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GCM155L8EH104KE07D"
+			(at 121.92 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "100n"
+			(at 154.94 133.3436 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 142.24 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "X8L"
+			(at 139.7 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 137.16 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 134.62 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 132.08 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 152.4 134.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Color" ""
+			(at 152.4 134.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2d68b6a6-dcbf-4ac2-ae28-4d92bfb788dc")
+		)
+		(pin "1"
+			(uuid "541e0ac1-51b5-4f61-9048-e7864d98eb8c")
+		)
+		(instances
+			(project "robot-pmu-hw"
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/1f323277-181d-40d4-bd4e-44f63c004b51"
+					(reference "C114")
+					(unit 1)
+				)
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/3adc4156-9565-4c05-a192-d0b5e3ebe13a"
+					(reference "C113")
+					(unit 1)
+				)
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/c55015ba-7066-4a27-85a3-e02e5b198070"
+					(reference "C115")
+					(unit 1)
+				)
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/d0cd7c0d-5410-4ef7-bf95-0b680ed8181c"
+					(reference "C116")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "lib:GND")
 		(at 74.93 85.09 0)
 		(unit 1)
@@ -9359,7 +12295,7 @@
 	)
 	(symbol
 		(lib_id "Hardware Components:TP_2.54mm_THT_5002")
-		(at 137.16 111.76 90)
+		(at 142.24 102.87 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9368,7 +12304,7 @@
 		(fields_autoplaced yes)
 		(uuid "720f8363-5dd3-432a-9237-03a2768e9241")
 		(property "Reference" "TP22"
-			(at 139.7 107.315 90)
+			(at 144.78 98.425 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9378,7 +12314,7 @@
 			)
 		)
 		(property "Value" "TP_2.54mm_THT_5002"
-			(at 147.32 96.52 0)
+			(at 152.4 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9389,7 +12325,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
-			(at 149.86 96.52 0)
+			(at 154.94 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9400,7 +12336,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.keyelco.com/product-pdf.cfm?p=1311"
-			(at 152.4 96.52 0)
+			(at 157.48 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9411,7 +12347,7 @@
 			)
 		)
 		(property "Description" "Testpoint THT"
-			(at 137.16 111.76 0)
+			(at 142.24 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9420,7 +12356,7 @@
 			)
 		)
 		(property "MPN" "5002"
-			(at 139.7 109.855 90)
+			(at 144.78 100.965 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9430,7 +12366,7 @@
 			)
 		)
 		(property "Manufacturer" "Keystone Electronics"
-			(at 154.94 96.52 0)
+			(at 160.02 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9441,7 +12377,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 157.48 96.52 0)
+			(at 162.56 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9452,7 +12388,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 160.02 96.52 0)
+			(at 165.1 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9463,7 +12399,7 @@
 			)
 		)
 		(property "Color" ""
-			(at 137.16 111.76 90)
+			(at 142.24 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9568,6 +12504,144 @@
 				)
 				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/d0cd7c0d-5410-4ef7-bf95-0b680ed8181c"
 					(reference "#PWR094")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Hardware Components:TP_2.54mm_THT_5002")
+		(at 149.86 127 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7a8d3c55-7733-4201-84f0-35d97e6d2f98")
+		(property "Reference" "TP48"
+			(at 152.4 122.555 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TP_2.54mm_THT_5002"
+			(at 160.02 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+			(at 162.56 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.keyelco.com/product-pdf.cfm?p=1311"
+			(at 165.1 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Testpoint THT"
+			(at 149.86 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "5002"
+			(at 152.4 125.095 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Manufacturer" "Keystone Electronics"
+			(at 167.64 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 170.18 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 172.72 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Color" ""
+			(at 149.86 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "747d9223-3a0d-466c-9104-deba4baadf46")
+		)
+		(instances
+			(project "robot-pmu-hw"
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/1f323277-181d-40d4-bd4e-44f63c004b51"
+					(reference "TP49")
+					(unit 1)
+				)
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/3adc4156-9565-4c05-a192-d0b5e3ebe13a"
+					(reference "TP48")
+					(unit 1)
+				)
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/c55015ba-7066-4a27-85a3-e02e5b198070"
+					(reference "TP50")
+					(unit 1)
+				)
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/d0cd7c0d-5410-4ef7-bf95-0b680ed8181c"
+					(reference "TP51")
 					(unit 1)
 				)
 			)
@@ -9936,16 +13010,15 @@
 	)
 	(symbol
 		(lib_id "lib:GND")
-		(at 165.1 118.11 0)
+		(at 165.1 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7d9838d6-9923-4537-936c-cfb85794cee7")
 		(property "Reference" "#PWR0117"
-			(at 165.1 124.46 0)
+			(at 165.1 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9954,7 +13027,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 165.1 123.19 0)
+			(at 165.1 118.872 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9962,7 +13035,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 165.1 118.11 0)
+			(at 165.1 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9971,7 +13044,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.1 118.11 0)
+			(at 165.1 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9980,7 +13053,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 165.1 118.11 0)
+			(at 165.1 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10007,6 +13080,488 @@
 				)
 				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/d0cd7c0d-5410-4ef7-bf95-0b680ed8181c"
 					(reference "#PWR091")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lib:Conn_01x02")
+		(at 160.02 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "805a80a7-5f81-4eea-b817-59a4b108af18")
+		(property "Reference" "J9"
+			(at 162.56 140.9699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 162.56 143.5099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
+			(at 160.02 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 160.02 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 160.02 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 160.02 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Color" ""
+			(at 160.02 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "816ceab4-6f26-415c-b993-4bca5a379efa")
+		)
+		(pin "2"
+			(uuid "93a2ba61-6230-4ef5-ac88-3e9cfb4e4335")
+		)
+		(instances
+			(project "robot-pmu-hw"
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/1f323277-181d-40d4-bd4e-44f63c004b51"
+					(reference "J10")
+					(unit 1)
+				)
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/3adc4156-9565-4c05-a192-d0b5e3ebe13a"
+					(reference "J9")
+					(unit 1)
+				)
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/c55015ba-7066-4a27-85a3-e02e5b198070"
+					(reference "J13")
+					(unit 1)
+				)
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/d0cd7c0d-5410-4ef7-bf95-0b680ed8181c"
+					(reference "J14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Hardware Components:C_10u_1206")
+		(at 27.94 142.24 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "87adf4ee-2b23-4044-86e7-2332e22e143d")
+		(property "Reference" "C69"
+			(at 30.48 138.4236 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "C_10u_1206"
+			(at 38.1 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Hardware Components Footprints:C_1206_3216Metric"
+			(at 40.64 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=CGA5L1X7R1V106K160AE"
+			(at 43.18 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 10 µF, 35 V, 1206 [3216 Metric], ± 10%, X7R"
+			(at 27.94 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CGA5L1X7R1V106K160AE"
+			(at 45.72 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TDK"
+			(at 48.26 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 50.8 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 53.34 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "10u"
+			(at 30.48 140.9636 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Voltage" ""
+			(at 55.88 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" ""
+			(at 58.42 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Public" "False"
+			(at 60.96 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 27.94 142.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Color" ""
+			(at 27.94 142.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8b264193-1257-44d6-aedf-970b9f067d83")
+		)
+		(pin "2"
+			(uuid "bd72027f-2cbb-42bb-9ceb-a5bc88db28ad")
+		)
+		(instances
+			(project "robot-pmu-hw"
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/1f323277-181d-40d4-bd4e-44f63c004b51"
+					(reference "C70")
+					(unit 1)
+				)
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/3adc4156-9565-4c05-a192-d0b5e3ebe13a"
+					(reference "C69")
+					(unit 1)
+				)
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/c55015ba-7066-4a27-85a3-e02e5b198070"
+					(reference "C71")
+					(unit 1)
+				)
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/d0cd7c0d-5410-4ef7-bf95-0b680ed8181c"
+					(reference "C72")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Hardware Components:C_10u_1206")
+		(at 88.9 165.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8a917528-66bd-4a91-93b4-892fb4abfe09")
+		(property "Reference" "C77"
+			(at 91.44 161.2836 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "C_10u_1206"
+			(at 99.06 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Hardware Components Footprints:C_1206_3216Metric"
+			(at 101.6 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=CGA5L1X7R1V106K160AE"
+			(at 104.14 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 10 µF, 35 V, 1206 [3216 Metric], ± 10%, X7R"
+			(at 88.9 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CGA5L1X7R1V106K160AE"
+			(at 106.68 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TDK"
+			(at 109.22 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 111.76 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 114.3 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "2.7n"
+			(at 91.44 163.8236 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Voltage" ""
+			(at 116.84 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" ""
+			(at 119.38 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Public" "False"
+			(at 121.92 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 88.9 165.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Color" ""
+			(at 88.9 165.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1a8d0849-561b-43c4-add7-9c97a4ce81ac")
+		)
+		(pin "2"
+			(uuid "52f1c703-761b-4369-9c1b-3323dee39f2f")
+		)
+		(instances
+			(project "robot-pmu-hw"
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/1f323277-181d-40d4-bd4e-44f63c004b51"
+					(reference "C78")
+					(unit 1)
+				)
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/3adc4156-9565-4c05-a192-d0b5e3ebe13a"
+					(reference "C77")
+					(unit 1)
+				)
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/c55015ba-7066-4a27-85a3-e02e5b198070"
+					(reference "C79")
+					(unit 1)
+				)
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/d0cd7c0d-5410-4ef7-bf95-0b680ed8181c"
+					(reference "C80")
 					(unit 1)
 				)
 			)
@@ -10199,6 +13754,263 @@
 				)
 				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/d0cd7c0d-5410-4ef7-bf95-0b680ed8181c"
 					(reference "L3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Analog_DAC:MCP4725xxx-xCH")
+		(at 142.24 172.72 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "90cc457f-6a7f-4617-a9cf-076e2cca8cf3")
+		(property "Reference" "U7"
+			(at 146.558 165.608 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MCP4725xxx-xCH"
+			(at 152.146 179.324 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+			(at 142.24 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/22039d.pdf"
+			(at 142.24 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "12-bit Digital-to-Analog Converter, integrated EEPROM, I2C interface, SOT-23-6"
+			(at 142.24 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Color" ""
+			(at 142.24 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "0c523957-91de-435f-b8e1-715517ea5c02")
+		)
+		(pin "5"
+			(uuid "f613ffa6-b153-480b-93e8-a99e09d4b444")
+		)
+		(pin "1"
+			(uuid "678e8883-6301-48c9-a5cc-26571baf9ba4")
+		)
+		(pin "2"
+			(uuid "608e5cbf-6787-4cd6-a13d-e50816759c1f")
+		)
+		(pin "3"
+			(uuid "71bfa888-ec09-417f-9639-965a8b76ae95")
+		)
+		(pin "4"
+			(uuid "086125f9-3bc1-4118-b664-8aef97af56e7")
+		)
+		(instances
+			(project "robot-pmu-hw"
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/1f323277-181d-40d4-bd4e-44f63c004b51"
+					(reference "U8")
+					(unit 1)
+				)
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/3adc4156-9565-4c05-a192-d0b5e3ebe13a"
+					(reference "U7")
+					(unit 1)
+				)
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/c55015ba-7066-4a27-85a3-e02e5b198070"
+					(reference "U9")
+					(unit 1)
+				)
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/d0cd7c0d-5410-4ef7-bf95-0b680ed8181c"
+					(reference "U10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lib:GND")
+		(at 27.94 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "91ce673e-0967-4e65-a805-ce60e7367e80")
+		(property "Reference" "#PWR0138"
+			(at 27.94 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 27.94 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 27.94 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 27.94 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 27.94 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "165d7385-3075-4b48-b8ac-37ddadcc6059")
+		)
+		(instances
+			(project "robot-pmu-hw"
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/1f323277-181d-40d4-bd4e-44f63c004b51"
+					(reference "#PWR0139")
+					(unit 1)
+				)
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/3adc4156-9565-4c05-a192-d0b5e3ebe13a"
+					(reference "#PWR0138")
+					(unit 1)
+				)
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/c55015ba-7066-4a27-85a3-e02e5b198070"
+					(reference "#PWR0140")
+					(unit 1)
+				)
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/d0cd7c0d-5410-4ef7-bf95-0b680ed8181c"
+					(reference "#PWR0141")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lib:GND")
+		(at 111.76 165.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "92624bd3-beee-4242-921f-920ec371c080")
+		(property "Reference" "#PWR0174"
+			(at 111.76 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 111.76 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.76 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 111.76 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "25955178-72bd-4d68-9131-d5fc450a77ab")
+		)
+		(instances
+			(project "robot-pmu-hw"
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/1f323277-181d-40d4-bd4e-44f63c004b51"
+					(reference "#PWR0175")
+					(unit 1)
+				)
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/3adc4156-9565-4c05-a192-d0b5e3ebe13a"
+					(reference "#PWR0174")
+					(unit 1)
+				)
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/c55015ba-7066-4a27-85a3-e02e5b198070"
+					(reference "#PWR0176")
+					(unit 1)
+				)
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/d0cd7c0d-5410-4ef7-bf95-0b680ed8181c"
+					(reference "#PWR0177")
 					(unit 1)
 				)
 			)
@@ -10438,6 +14250,275 @@
 		)
 	)
 	(symbol
+		(lib_id "lib:GND")
+		(at 125.73 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9a3ef8f8-e4a7-4504-a3d7-f5b6a7dfa518")
+		(property "Reference" "#PWR0182"
+			(at 125.73 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 125.73 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 125.73 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 125.73 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 125.73 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4139ba06-233f-4834-9d53-cccc2012bfc7")
+		)
+		(instances
+			(project "robot-pmu-hw"
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/1f323277-181d-40d4-bd4e-44f63c004b51"
+					(reference "#PWR0185")
+					(unit 1)
+				)
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/3adc4156-9565-4c05-a192-d0b5e3ebe13a"
+					(reference "#PWR0182")
+					(unit 1)
+				)
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/c55015ba-7066-4a27-85a3-e02e5b198070"
+					(reference "#PWR0188")
+					(unit 1)
+				)
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/d0cd7c0d-5410-4ef7-bf95-0b680ed8181c"
+					(reference "#PWR0191")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Hardware Components:C_10u_1206")
+		(at 53.34 156.21 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9a6ff319-d6fb-44a5-b603-662bd0ed2896")
+		(property "Reference" "C73"
+			(at 55.88 152.3936 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "C_10u_1206"
+			(at 63.5 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Hardware Components Footprints:C_1206_3216Metric"
+			(at 66.04 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=CGA5L1X7R1V106K160AE"
+			(at 68.58 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 10 µF, 35 V, 1206 [3216 Metric], ± 10%, X7R"
+			(at 53.34 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CGA5L1X7R1V106K160AE"
+			(at 71.12 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TDK"
+			(at 73.66 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 76.2 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 78.74 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "10n"
+			(at 55.88 154.9336 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Voltage" ""
+			(at 81.28 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" ""
+			(at 83.82 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Public" "False"
+			(at 86.36 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 53.34 156.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Color" ""
+			(at 53.34 156.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9888d5ea-9779-4583-94a1-ec08043d65c2")
+		)
+		(pin "2"
+			(uuid "eb4d06a3-a0d4-4261-ac69-3d9051a2f991")
+		)
+		(instances
+			(project "robot-pmu-hw"
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/1f323277-181d-40d4-bd4e-44f63c004b51"
+					(reference "C74")
+					(unit 1)
+				)
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/3adc4156-9565-4c05-a192-d0b5e3ebe13a"
+					(reference "C73")
+					(unit 1)
+				)
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/c55015ba-7066-4a27-85a3-e02e5b198070"
+					(reference "C75")
+					(unit 1)
+				)
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/d0cd7c0d-5410-4ef7-bf95-0b680ed8181c"
+					(reference "C76")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Hardware Components:C_22u_25V_X7R_1210")
 		(at 184.15 85.09 90)
 		(unit 1)
@@ -10625,6 +14706,379 @@
 				)
 				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/d0cd7c0d-5410-4ef7-bf95-0b680ed8181c"
 					(reference "C58")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Hardware Components:C_100n_16V_X7R_0402")
+		(at 87.63 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a0642872-1f39-48d7-bc9b-430ef7136cfd")
+		(property "Reference" "C85"
+			(at 90.1763 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "C_100n_16V_X7R_0402"
+			(at 102.87 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Hardware Components Footprints:C_0402_1005Metric"
+			(at 102.87 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.kemet.com/en/us/capacitors/product/C0402C104J4RAC7411.html"
+			(at 102.87 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 100nF, 50V, 0402, ±5%, X7R"
+			(at 87.63 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C0402C104J4RAC7411"
+			(at 102.87 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "100n"
+			(at 90.1763 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Voltage" "16V"
+			(at 102.87 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 102.87 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KEMET"
+			(at 102.87 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 102.87 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 102.87 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 87.63 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Color" ""
+			(at 87.63 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4ade5fcd-8cc6-4236-b345-0b9e4ef5fd3a")
+		)
+		(pin "2"
+			(uuid "36f7f2b8-8e9e-49af-b849-7fc2b5afef30")
+		)
+		(instances
+			(project "robot-pmu-hw"
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/1f323277-181d-40d4-bd4e-44f63c004b51"
+					(reference "C86")
+					(unit 1)
+				)
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/3adc4156-9565-4c05-a192-d0b5e3ebe13a"
+					(reference "C85")
+					(unit 1)
+				)
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/c55015ba-7066-4a27-85a3-e02e5b198070"
+					(reference "C87")
+					(unit 1)
+				)
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/d0cd7c0d-5410-4ef7-bf95-0b680ed8181c"
+					(reference "C88")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Hardware Components:L_4u7_11A_Coilcraft-XAL6060")
+		(at 97.79 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a0d05dd8-ed00-49e6-a176-32ba3112a7c3")
+		(property "Reference" "L4"
+			(at 100.33 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "L_4u7_11A_Coilcraft-XAL6060"
+			(at 113.03 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Hardware Components Footprints:L_Coilcraft-XAL6060"
+			(at 113.03 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/597/xal60xx-270658.pdf"
+			(at 113.03 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power Inductor (SMD), 5.6 µH, 9.9 A, Shielded, 10.5 A, XAL6060"
+			(at 97.79 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Coilcraft"
+			(at 113.03 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "XAL6060-562MEB"
+			(at 113.03 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ISat" "9A"
+			(at 113.03 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "IMax" "9.9A"
+			(at 113.03 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Size" "6.36x6.56"
+			(at 113.03 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "10u"
+			(at 100.33 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 113.03 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 113.03 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 97.79 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Color" ""
+			(at 97.79 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2d5dff91-8d60-4d26-a513-ece58609c578")
+		)
+		(pin "1"
+			(uuid "bc139653-3725-42cc-b4a5-ea851970feaf")
+		)
+		(instances
+			(project "robot-pmu-hw"
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/1f323277-181d-40d4-bd4e-44f63c004b51"
+					(reference "L6")
+					(unit 1)
+				)
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/3adc4156-9565-4c05-a192-d0b5e3ebe13a"
+					(reference "L4")
+					(unit 1)
+				)
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/c55015ba-7066-4a27-85a3-e02e5b198070"
+					(reference "L8")
+					(unit 1)
+				)
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/d0cd7c0d-5410-4ef7-bf95-0b680ed8181c"
+					(reference "L9")
 					(unit 1)
 				)
 			)
@@ -10856,6 +15310,187 @@
 				)
 				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/d0cd7c0d-5410-4ef7-bf95-0b680ed8181c"
 					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lib:C_1u_0402")
+		(at 160.02 163.83 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a72f43c5-83bc-4082-898b-25e570b55bb2")
+		(property "Reference" "C89"
+			(at 162.56 160.0136 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "C_1u_0402"
+			(at 170.18 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Hardware Components Footprints:C_0402_1005Metric"
+			(at 172.72 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1005X6S1A105K050BC"
+			(at 175.26 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 1 µF, 10 V, 0402 [1005 Metric], ± 10%, X6S, C"
+			(at 160.02 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C1005X6S1A105K050BC"
+			(at 177.8 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TDK"
+			(at 180.34 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 182.88 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 185.42 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "1u"
+			(at 162.56 162.5536 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Voltage" ""
+			(at 187.96 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" ""
+			(at 190.5 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 160.02 163.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Color" ""
+			(at 160.02 163.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fa7024b5-5ee6-4299-b541-8fef093f7b75")
+		)
+		(pin "2"
+			(uuid "1ea1d401-835b-4f6a-ba28-54d20db40cb7")
+		)
+		(instances
+			(project "robot-pmu-hw"
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/1f323277-181d-40d4-bd4e-44f63c004b51"
+					(reference "C90")
+					(unit 1)
+				)
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/3adc4156-9565-4c05-a192-d0b5e3ebe13a"
+					(reference "C89")
+					(unit 1)
+				)
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/c55015ba-7066-4a27-85a3-e02e5b198070"
+					(reference "C91")
+					(unit 1)
+				)
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/d0cd7c0d-5410-4ef7-bf95-0b680ed8181c"
+					(reference "C92")
 					(unit 1)
 				)
 			)
@@ -11229,6 +15864,84 @@
 		)
 	)
 	(symbol
+		(lib_id "lib:GND")
+		(at 152.4 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b08b86bc-4c4c-4181-86d6-6e740b9da174")
+		(property "Reference" "#PWR0206"
+			(at 152.4 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 152.908 139.446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 152.4 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 152.4 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8420d347-a70b-4fc4-95fc-a53331144b0e")
+		)
+		(instances
+			(project "robot-pmu-hw"
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/1f323277-181d-40d4-bd4e-44f63c004b51"
+					(reference "#PWR0207")
+					(unit 1)
+				)
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/3adc4156-9565-4c05-a192-d0b5e3ebe13a"
+					(reference "#PWR0206")
+					(unit 1)
+				)
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/c55015ba-7066-4a27-85a3-e02e5b198070"
+					(reference "#PWR0208")
+					(unit 1)
+				)
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/d0cd7c0d-5410-4ef7-bf95-0b680ed8181c"
+					(reference "#PWR0209")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "lib:+15V")
 		(at 255.27 97.79 0)
 		(unit 1)
@@ -11546,6 +16259,84 @@
 		)
 	)
 	(symbol
+		(lib_id "lib:GND")
+		(at 19.05 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bd1d6af1-2d64-443c-934d-4b44e0ec6767")
+		(property "Reference" "#PWR0134"
+			(at 19.05 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 19.05 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 19.05 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 19.05 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 19.05 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "674dbb72-86c9-4015-9746-2f6577500881")
+		)
+		(instances
+			(project "robot-pmu-hw"
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/1f323277-181d-40d4-bd4e-44f63c004b51"
+					(reference "#PWR0135")
+					(unit 1)
+				)
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/3adc4156-9565-4c05-a192-d0b5e3ebe13a"
+					(reference "#PWR0134")
+					(unit 1)
+				)
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/c55015ba-7066-4a27-85a3-e02e5b198070"
+					(reference "#PWR0136")
+					(unit 1)
+				)
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/d0cd7c0d-5410-4ef7-bf95-0b680ed8181c"
+					(reference "#PWR0137")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Hardware Components:TP_2.54mm_THT_5002")
 		(at 168.91 97.79 90)
 		(unit 1)
@@ -11684,8 +16475,170 @@
 		)
 	)
 	(symbol
+		(lib_id "Hardware Components:R_160k_0402")
+		(at 111.76 146.05 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bf44e778-67e4-49ea-8c7d-55d1ebaecf2e")
+		(property "Reference" "R65"
+			(at 114.3 142.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "R_160k_0402"
+			(at 124.46 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Hardware Components Footprints:R_0402_1005Metric"
+			(at 127 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
+			(at 129.54 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Chip Resistor, Ceramic, 160 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film"
+			(at 111.76 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CR0402-FX-1603GLF"
+			(at 132.08 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Bourns"
+			(at 134.62 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 137.16 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 139.7 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "140k"
+			(at 114.3 144.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 121.92 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Color" ""
+			(at 111.76 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "20127656-0e89-48c8-842a-79e486af6943")
+		)
+		(pin "2"
+			(uuid "23f104ee-6f72-4b6e-badd-ba766a0d0d96")
+		)
+		(instances
+			(project "robot-pmu-hw"
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/1f323277-181d-40d4-bd4e-44f63c004b51"
+					(reference "R69")
+					(unit 1)
+				)
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/3adc4156-9565-4c05-a192-d0b5e3ebe13a"
+					(reference "R65")
+					(unit 1)
+				)
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/c55015ba-7066-4a27-85a3-e02e5b198070"
+					(reference "R70")
+					(unit 1)
+				)
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/d0cd7c0d-5410-4ef7-bf95-0b680ed8181c"
+					(reference "R71")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "lib:GND")
-		(at 148.59 111.76 0)
+		(at 153.67 102.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11694,7 +16647,7 @@
 		(fields_autoplaced yes)
 		(uuid "c207ec73-4f08-4170-8e86-e0c96b8a455d")
 		(property "Reference" "#PWR0130"
-			(at 148.59 118.11 0)
+			(at 153.67 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11703,7 +16656,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 148.59 116.84 0)
+			(at 153.67 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11711,7 +16664,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 148.59 111.76 0)
+			(at 153.67 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11720,7 +16673,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 148.59 111.76 0)
+			(at 153.67 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11729,7 +16682,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 148.59 111.76 0)
+			(at 153.67 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11756,6 +16709,199 @@
 				)
 				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/d0cd7c0d-5410-4ef7-bf95-0b680ed8181c"
 					(reference "#PWR0133")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Hardware Components:C_22u_25V_X7R_1210")
+		(at 143.51 148.59 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c9a6b4fc-6040-46fa-949b-939ef8f375f4")
+		(property "Reference" "C95"
+			(at 146.05 144.7736 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "C_22u_25V_X7R_1210"
+			(at 153.67 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Hardware Components Footprints:C_1210_3225Metric"
+			(at 156.21 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.kemet.com/en/us/capacitors/product/C1210C226K3RAC7210.html"
+			(at 158.75 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 22µF, 25V, 1210, ±10%, X7R"
+			(at 143.51 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C1210C226K3RAC7210"
+			(at 161.29 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "22u"
+			(at 146.05 147.3136 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Voltage" "25V"
+			(at 163.83 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 166.37 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KEMET"
+			(at 168.91 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 171.45 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 173.99 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Public" "False"
+			(at 176.53 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 143.51 148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Color" ""
+			(at 143.51 148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b43a0acc-06ce-480d-9d7d-eb40e0a6cdbf")
+		)
+		(pin "2"
+			(uuid "8391a42d-7824-4727-91eb-c410e841b91c")
+		)
+		(instances
+			(project "robot-pmu-hw"
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/1f323277-181d-40d4-bd4e-44f63c004b51"
+					(reference "C106")
+					(unit 1)
+				)
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/3adc4156-9565-4c05-a192-d0b5e3ebe13a"
+					(reference "C95")
+					(unit 1)
+				)
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/c55015ba-7066-4a27-85a3-e02e5b198070"
+					(reference "C109")
+					(unit 1)
+				)
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/d0cd7c0d-5410-4ef7-bf95-0b680ed8181c"
+					(reference "C112")
 					(unit 1)
 				)
 			)
@@ -11912,6 +17058,162 @@
 				)
 				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/d0cd7c0d-5410-4ef7-bf95-0b680ed8181c"
 					(reference "#PWR0100")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lib:GND")
+		(at 88.9 165.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cfcd4c2e-a7e0-4b51-9706-d786e740d967")
+		(property "Reference" "#PWR0154"
+			(at 88.9 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 88.9 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.9 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 88.9 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "85a07187-2c68-4a8d-b136-dab3878edb94")
+		)
+		(instances
+			(project "robot-pmu-hw"
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/1f323277-181d-40d4-bd4e-44f63c004b51"
+					(reference "#PWR0155")
+					(unit 1)
+				)
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/3adc4156-9565-4c05-a192-d0b5e3ebe13a"
+					(reference "#PWR0154")
+					(unit 1)
+				)
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/c55015ba-7066-4a27-85a3-e02e5b198070"
+					(reference "#PWR0168")
+					(unit 1)
+				)
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/d0cd7c0d-5410-4ef7-bf95-0b680ed8181c"
+					(reference "#PWR0169")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lib:GND")
+		(at 143.51 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d4c00d27-a283-4a08-9dae-802d32cb694d")
+		(property "Reference" "#PWR0184"
+			(at 143.51 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 143.51 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 143.51 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 143.51 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d549a0d2-1514-43b7-9d0b-bece91515f5f")
+		)
+		(instances
+			(project "robot-pmu-hw"
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/1f323277-181d-40d4-bd4e-44f63c004b51"
+					(reference "#PWR0187")
+					(unit 1)
+				)
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/3adc4156-9565-4c05-a192-d0b5e3ebe13a"
+					(reference "#PWR0184")
+					(unit 1)
+				)
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/c55015ba-7066-4a27-85a3-e02e5b198070"
+					(reference "#PWR0190")
+					(unit 1)
+				)
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/d0cd7c0d-5410-4ef7-bf95-0b680ed8181c"
+					(reference "#PWR0193")
 					(unit 1)
 				)
 			)
@@ -12274,38 +17576,25 @@
 		)
 	)
 	(symbol
-		(lib_id "Hardware Components:TP_2.54mm_THT_5002")
-		(at 148.59 111.76 90)
+		(lib_id "lib:R_0R_0402")
+		(at 43.18 146.05 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e0935401-df4f-4716-9068-e3a3573f88c5")
-		(property "Reference" "TP26"
-			(at 151.13 107.315 90)
+		(uuid "dfd77b68-8306-478b-83e7-3e0361bb6439")
+		(property "Reference" "R9"
+			(at 45.974 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "TP_2.54mm_THT_5002"
-			(at 158.75 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
-			(at 161.29 96.52 0)
+		(property "Value" "R_0R_0402"
+			(at 63.5 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12315,8 +17604,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.keyelco.com/product-pdf.cfm?p=1311"
-			(at 163.83 96.52 0)
+		(property "Footprint" "Hardware Components Footprints:R_0402_1005Metric"
+			(at 63.5 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12326,8 +17615,19 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Testpoint THT"
-			(at 148.59 111.76 0)
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C301.pdf"
+			(at 63.5 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Chip Resistor, Jumper, 0 ohm, 100 mW, 0402 [1005 Metric], Thick Film, General Purpose"
+			(at 43.18 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12335,18 +17635,19 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "5002"
-			(at 151.13 109.855 90)
+		(property "MPN" "ERJ2GE0R00X"
+			(at 63.5 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
-				(justify right)
+				(justify left bottom)
+				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Keystone Electronics"
-			(at 166.37 96.52 0)
+		(property "Manufacturer" "Panasonic"
+			(at 63.5 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12357,7 +17658,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 168.91 96.52 0)
+			(at 63.5 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12368,7 +17669,187 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 171.45 96.52 0)
+			(at 63.5 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "0R"
+			(at 45.974 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Tolerance" "~"
+			(at 63.5 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Current" "1A"
+			(at 63.5 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 43.18 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Color" ""
+			(at 43.18 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ecb5e471-86fb-4ea5-8405-835c075dc334")
+		)
+		(pin "1"
+			(uuid "15e3ec52-224d-4be1-a5c8-69ad6fef61c8")
+		)
+		(instances
+			(project "robot-pmu-hw"
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/1f323277-181d-40d4-bd4e-44f63c004b51"
+					(reference "R19")
+					(unit 1)
+				)
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/3adc4156-9565-4c05-a192-d0b5e3ebe13a"
+					(reference "R9")
+					(unit 1)
+				)
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/c55015ba-7066-4a27-85a3-e02e5b198070"
+					(reference "R31")
+					(unit 1)
+				)
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/d0cd7c0d-5410-4ef7-bf95-0b680ed8181c"
+					(reference "R40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Hardware Components:TP_2.54mm_THT_5002")
+		(at 153.67 102.87 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e0935401-df4f-4716-9068-e3a3573f88c5")
+		(property "Reference" "TP26"
+			(at 156.21 98.425 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TP_2.54mm_THT_5002"
+			(at 163.83 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+			(at 166.37 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.keyelco.com/product-pdf.cfm?p=1311"
+			(at 168.91 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Testpoint THT"
+			(at 153.67 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "5002"
+			(at 156.21 100.965 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Manufacturer" "Keystone Electronics"
+			(at 171.45 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 173.99 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 176.53 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12379,7 +17860,7 @@
 			)
 		)
 		(property "Color" ""
-			(at 148.59 111.76 90)
+			(at 153.67 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12588,6 +18069,84 @@
 		)
 	)
 	(symbol
+		(lib_id "lib:GND")
+		(at 142.24 180.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e418d4ad-de17-445a-b33a-a7c400a3d60f")
+		(property "Reference" "#PWR0194"
+			(at 142.24 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 142.24 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 142.24 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 142.24 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4c9aa3e9-704c-44ec-a1ec-378d098fd54a")
+		)
+		(instances
+			(project "robot-pmu-hw"
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/1f323277-181d-40d4-bd4e-44f63c004b51"
+					(reference "#PWR0197")
+					(unit 1)
+				)
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/3adc4156-9565-4c05-a192-d0b5e3ebe13a"
+					(reference "#PWR0194")
+					(unit 1)
+				)
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/c55015ba-7066-4a27-85a3-e02e5b198070"
+					(reference "#PWR0200")
+					(unit 1)
+				)
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/d0cd7c0d-5410-4ef7-bf95-0b680ed8181c"
+					(reference "#PWR0203")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Hardware Components:TP_2.54mm_THT_5002")
 		(at 99.06 76.2 90)
 		(unit 1)
@@ -12720,6 +18279,254 @@
 				)
 				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/d0cd7c0d-5410-4ef7-bf95-0b680ed8181c"
 					(reference "TP21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lib:GND")
+		(at 53.34 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e69a856b-1817-4b62-90f4-5901ae21f0cd")
+		(property "Reference" "#PWR0142"
+			(at 53.34 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 53.34 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 53.34 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 53.34 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0d0bb106-dd77-4a02-a4a7-4b7653e4f7d1")
+		)
+		(instances
+			(project "robot-pmu-hw"
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/1f323277-181d-40d4-bd4e-44f63c004b51"
+					(reference "#PWR0144")
+					(unit 1)
+				)
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/3adc4156-9565-4c05-a192-d0b5e3ebe13a"
+					(reference "#PWR0142")
+					(unit 1)
+				)
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/c55015ba-7066-4a27-85a3-e02e5b198070"
+					(reference "#PWR0148")
+					(unit 1)
+				)
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/d0cd7c0d-5410-4ef7-bf95-0b680ed8181c"
+					(reference "#PWR0149")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ap3:AP64501QSP-13")
+		(at 55.88 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e907ee67-23cc-470b-9702-5ef685aca9fe")
+		(property "Reference" "IC4"
+			(at 71.12 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AP64501QSP-13"
+			(at 71.12 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SOIC127P600X163-9N"
+			(at 82.55 232.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com//assets/Datasheets/AP64501Q.pdf"
+			(at 82.55 332.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "DIODES INC. - AP64501QSP-13 - DC-DC Switching Synchronous Buck Regulator, Adjustable, 3.8-40 V in, 0.8-40 V out, 3 A out, HSOIC-8"
+			(at 71.12 126.746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.63"
+			(at 82.55 532.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Diodes Incorporated"
+			(at 82.55 632.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "AP64501QSP-13"
+			(at 82.55 732.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "621-AP64501QSP-13"
+			(at 82.55 832.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/AP64501QSP-13?qs=IS%252B4QmGtzzqtXRaIlE2s%2FA%3D%3D"
+			(at 82.55 932.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "AP64501QSP-13"
+			(at 82.55 1032.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ap64501qsp-13/diodes-incorporated.html?utm_currency=USD&region=nac"
+			(at 82.55 1132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "0fcc649a-0ffb-49c6-a3ad-864bf9cf1ec4")
+		)
+		(pin "5"
+			(uuid "24368f4e-bf5d-4df4-b7a5-3fe99ae85d32")
+		)
+		(pin "8"
+			(uuid "e9be79e9-c58d-4cfc-8ccc-3c50d4ab770e")
+		)
+		(pin "7"
+			(uuid "b513f20f-f66a-4379-a4c0-a90fd32d53c6")
+		)
+		(pin "1"
+			(uuid "611ecbab-999a-4664-8082-18d46c549472")
+		)
+		(pin "6"
+			(uuid "f7f3cc11-829e-400c-aa53-b4d0f3502793")
+		)
+		(pin "2"
+			(uuid "0d42169b-8511-4264-a431-3ac5faac159c")
+		)
+		(pin "4"
+			(uuid "fcc5ec37-8376-4263-bad5-a1989c04197f")
+		)
+		(instances
+			(project ""
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/1f323277-181d-40d4-bd4e-44f63c004b51"
+					(reference "IC5")
+					(unit 1)
+				)
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/3adc4156-9565-4c05-a192-d0b5e3ebe13a"
+					(reference "IC4")
+					(unit 1)
+				)
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/c55015ba-7066-4a27-85a3-e02e5b198070"
+					(reference "IC8")
+					(unit 1)
+				)
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/d0cd7c0d-5410-4ef7-bf95-0b680ed8181c"
+					(reference "IC9")
 					(unit 1)
 				)
 			)
@@ -13117,6 +18924,354 @@
 				)
 				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/d0cd7c0d-5410-4ef7-bf95-0b680ed8181c"
 					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Hardware Components:C_22u_25V_X7R_1210")
+		(at 125.73 148.59 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f982c680-0086-4a1d-9236-e4d7a5126e31")
+		(property "Reference" "C93"
+			(at 128.27 144.7736 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "C_22u_25V_X7R_1210"
+			(at 135.89 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Hardware Components Footprints:C_1210_3225Metric"
+			(at 138.43 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.kemet.com/en/us/capacitors/product/C1210C226K3RAC7210.html"
+			(at 140.97 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 22µF, 25V, 1210, ±10%, X7R"
+			(at 125.73 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C1210C226K3RAC7210"
+			(at 143.51 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "22u"
+			(at 128.27 147.3136 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Voltage" "25V"
+			(at 146.05 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 148.59 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KEMET"
+			(at 151.13 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 153.67 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 156.21 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Public" "False"
+			(at 158.75 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 125.73 148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Color" ""
+			(at 125.73 148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5860bdc6-5c45-4756-959d-ff6ca3798d68")
+		)
+		(pin "2"
+			(uuid "331e9f7f-3f2f-44da-becb-86bf2f268e5d")
+		)
+		(instances
+			(project "robot-pmu-hw"
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/1f323277-181d-40d4-bd4e-44f63c004b51"
+					(reference "C96")
+					(unit 1)
+				)
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/3adc4156-9565-4c05-a192-d0b5e3ebe13a"
+					(reference "C93")
+					(unit 1)
+				)
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/c55015ba-7066-4a27-85a3-e02e5b198070"
+					(reference "C107")
+					(unit 1)
+				)
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/d0cd7c0d-5410-4ef7-bf95-0b680ed8181c"
+					(reference "C110")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lib:GND")
+		(at 154.94 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fb7e275b-0a79-4168-93d5-dc52ed5e872b")
+		(property "Reference" "#PWR0178"
+			(at 154.94 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 154.94 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 154.94 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 154.94 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3a4ce094-c14e-42cf-bd18-0078eb854862")
+		)
+		(instances
+			(project "robot-pmu-hw"
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/1f323277-181d-40d4-bd4e-44f63c004b51"
+					(reference "#PWR0179")
+					(unit 1)
+				)
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/3adc4156-9565-4c05-a192-d0b5e3ebe13a"
+					(reference "#PWR0178")
+					(unit 1)
+				)
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/c55015ba-7066-4a27-85a3-e02e5b198070"
+					(reference "#PWR0180")
+					(unit 1)
+				)
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/d0cd7c0d-5410-4ef7-bf95-0b680ed8181c"
+					(reference "#PWR0181")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lib:+3V3")
+		(at 160.02 158.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ffad8b26-ce56-416d-9297-e9603824dbbb")
+		(property "Reference" "#PWR0195"
+			(at 160.02 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 160.02 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 160.02 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 160.02 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a54a0c07-3a13-4dc0-aaf5-2b4282123b5d")
+		)
+		(instances
+			(project "robot-pmu-hw"
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/1f323277-181d-40d4-bd4e-44f63c004b51"
+					(reference "#PWR0198")
+					(unit 1)
+				)
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/3adc4156-9565-4c05-a192-d0b5e3ebe13a"
+					(reference "#PWR0195")
+					(unit 1)
+				)
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/c55015ba-7066-4a27-85a3-e02e5b198070"
+					(reference "#PWR0201")
+					(unit 1)
+				)
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/d0cd7c0d-5410-4ef7-bf95-0b680ed8181c"
+					(reference "#PWR0204")
 					(unit 1)
 				)
 			)
