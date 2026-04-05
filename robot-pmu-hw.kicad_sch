@@ -329,29 +329,6 @@
 		)
 		(uuid "d0c4979b-a807-41bd-8996-af6e11e59e54")
 	)
-	(text_box " \n"
-		(exclude_from_sim no)
-		(at 222.758 160.274 0)
-		(size 24.13 14.605)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type solid)
-			(color 108 142 191 1)
-		)
-		(fill
-			(type color)
-			(color 218 232 252 1)
-		)
-		(effects
-			(font
-				(size 2.5 2.5)
-				(thickness 0.3125)
-				(color 0 0 0 1)
-			)
-		)
-		(uuid "32528d00-6d3a-40c3-bc99-d8130cfb200c")
-	)
 	(text_box "Internal AON DC-DC \n3v3@(<1A)"
 		(exclude_from_sim no)
 		(at 267.97 179.07 0)
@@ -525,14 +502,14 @@
 		(uuid "8a6ce085-7be1-422a-8f5a-a338517b86bd")
 	)
 	(junction
-		(at 217.17 95.25)
+		(at 308.61 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "eca4d8c5-78b2-4eaf-902f-0c08bab374c6")
+		(uuid "90f9793b-ad5b-41cf-a603-620c0e537be2")
 	)
 	(bus
 		(pts
-			(xy 217.17 95.25) (xy 217.17 180.34)
+			(xy 308.61 71.12) (xy 308.61 100.33)
 		)
 		(stroke
 			(width 0)
@@ -547,6 +524,7 @@
 		(stroke
 			(width 0)
 			(type default)
+			(color 194 194 0 1)
 		)
 		(uuid "0c866066-5dbc-49c1-abd0-18790529c6b4")
 	)
@@ -588,6 +566,7 @@
 		(stroke
 			(width 0)
 			(type default)
+			(color 194 194 0 1)
 		)
 		(uuid "1425a7eb-a6f8-4114-9010-5e7e6cfa82be")
 	)
@@ -601,6 +580,16 @@
 		)
 		(uuid "163d77ab-2a6b-4368-96da-135cbc3f5492")
 	)
+	(bus
+		(pts
+			(xy 300.99 100.33) (xy 308.61 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "173b950d-1336-4fd9-8989-ec3dc8b32950")
+	)
 	(wire
 		(pts
 			(xy 194.31 64.77) (xy 267.97 64.77)
@@ -608,6 +597,7 @@
 		(stroke
 			(width 0)
 			(type default)
+			(color 194 194 0 1)
 		)
 		(uuid "2349265c-6e30-4612-bc5b-cb49c31af9c7")
 	)
@@ -662,6 +652,7 @@
 		(stroke
 			(width 0)
 			(type default)
+			(color 194 194 0 1)
 		)
 		(uuid "31dd4628-516d-4cf4-bcf9-527bcf7e9698")
 	)
@@ -694,6 +685,7 @@
 		(stroke
 			(width 0)
 			(type default)
+			(color 194 194 0 1)
 		)
 		(uuid "3ecc1b0b-566e-459e-966a-aac970f0cef6")
 	)
@@ -726,6 +718,7 @@
 		(stroke
 			(width 0)
 			(type default)
+			(color 194 194 0 1)
 		)
 		(uuid "4d5183ee-8915-4fea-b87f-994690c5ea22")
 	)
@@ -736,6 +729,7 @@
 		(stroke
 			(width 0)
 			(type default)
+			(color 194 194 0 1)
 		)
 		(uuid "4ddc6506-8c47-4c45-8963-6fe87739a4cc")
 	)
@@ -751,7 +745,7 @@
 	)
 	(bus
 		(pts
-			(xy 267.97 69.85) (xy 217.17 69.85)
+			(xy 300.99 71.12) (xy 308.61 71.12)
 		)
 		(stroke
 			(width 0)
@@ -766,6 +760,7 @@
 		(stroke
 			(width 0)
 			(type default)
+			(color 194 194 0 1)
 		)
 		(uuid "6e4a0e11-d741-4acd-bb03-3ea585355add")
 	)
@@ -786,6 +781,7 @@
 		(stroke
 			(width 0)
 			(type default)
+			(color 194 194 0 1)
 		)
 		(uuid "79cd9f64-8840-4cbe-816d-df40d18f8a53")
 	)
@@ -796,8 +792,19 @@
 		(stroke
 			(width 0)
 			(type default)
+			(color 194 194 0 1)
 		)
 		(uuid "7a93d3d2-a029-4940-ab44-5ccb01615295")
+	)
+	(bus
+		(pts
+			(xy 215.9 180.34) (xy 215.9 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b1af789-f741-4c2c-90b9-5bd7da633534")
 	)
 	(wire
 		(pts
@@ -806,6 +813,7 @@
 		(stroke
 			(width 0)
 			(type default)
+			(color 194 194 0 1)
 		)
 		(uuid "8d1f22c6-93eb-49cf-b2d8-cb60d696cbb9")
 	)
@@ -836,6 +844,7 @@
 		(stroke
 			(width 0)
 			(type default)
+			(color 194 194 0 1)
 		)
 		(uuid "9b6ee6f5-b903-4d81-bf55-1669d4730e83")
 	)
@@ -846,6 +855,7 @@
 		(stroke
 			(width 0)
 			(type default)
+			(color 194 194 0 1)
 		)
 		(uuid "a1384855-717c-4b2a-bbcd-341dbf86540e")
 	)
@@ -861,7 +871,7 @@
 	)
 	(bus
 		(pts
-			(xy 217.17 180.34) (xy 214.63 180.34)
+			(xy 308.61 177.8) (xy 215.9 177.8)
 		)
 		(stroke
 			(width 0)
@@ -897,6 +907,7 @@
 		(stroke
 			(width 0)
 			(type default)
+			(color 194 194 0 1)
 		)
 		(uuid "b5e507eb-b4e3-4dcf-b240-1293407e966e")
 	)
@@ -918,18 +929,19 @@
 		(stroke
 			(width 0)
 			(type default)
+			(color 194 194 0 1)
 		)
 		(uuid "c7e3e145-29ef-45ad-abd3-9f1037dffe00")
 	)
 	(bus
 		(pts
-			(xy 217.17 69.85) (xy 217.17 95.25)
+			(xy 214.63 180.34) (xy 215.9 180.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c88eda65-c876-496e-aba7-7a4d409741e9")
+		(uuid "cb291a8d-686c-4792-9d13-e67ac62153a4")
 	)
 	(wire
 		(pts
@@ -949,8 +961,19 @@
 		(stroke
 			(width 0)
 			(type default)
+			(color 194 194 0 1)
 		)
 		(uuid "ec8c3107-a6ab-45ca-8cc9-474c3a7ef92b")
+	)
+	(bus
+		(pts
+			(xy 308.61 100.33) (xy 308.61 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecf1ddb7-e9bb-4ddc-b887-558eae814245")
 	)
 	(wire
 		(pts
@@ -970,18 +993,9 @@
 		(stroke
 			(width 0)
 			(type default)
+			(color 194 194 0 1)
 		)
 		(uuid "ee1d3e70-bf8e-4800-80eb-cfe05d1e86dc")
-	)
-	(bus
-		(pts
-			(xy 267.97 95.25) (xy 217.17 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f690ba4d-d17c-4972-a23e-e956ac1803ab")
 	)
 	(sheet
 		(at 156.845 160.02)
@@ -1210,13 +1224,13 @@
 			)
 		)
 		(pin "{I2C}" input
-			(at 267.97 95.25 180)
+			(at 300.99 100.33 0)
 			(uuid "8cb32578-4088-40f8-a07c-fb2c2691e7fc")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(instances
@@ -1282,62 +1296,19 @@
 			)
 		)
 		(pin "{I2C}" input
-			(at 267.97 69.85 180)
+			(at 300.99 71.12 0)
 			(uuid "8cfe05e4-4893-40ce-bfdc-86d4314b0636")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(instances
 			(project "robot-pmu-hw"
 				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5"
 					(page "1")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 219.71 160.02)
-		(size 29.845 35.56)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 108 142 191 1.0000)
-		)
-		(uuid "9bcd7b8b-c1be-4811-b7b3-02c012fdb137")
-		(property "Sheetname" "Display"
-			(at 234.442 168.148 0)
-			(effects
-				(font
-					(size 3 3)
-					(thickness 0.254)
-					(bold yes)
-					(color 0 0 0 1)
-				)
-			)
-		)
-		(property "Sheetfile" "display.kicad_sch"
-			(at 253.3146 185.42 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "robot-pmu-hw"
-				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5"
-					(page "9")
 				)
 			)
 		)
