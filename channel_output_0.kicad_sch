@@ -10048,7 +10048,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_Bourns_SRR1210A"
+		(property "Footprint" "Inductor_SMD:L_Wuerth_XHMI-6060"
 			(at 165.1 78.74 0)
 			(effects
 				(font
@@ -10059,7 +10059,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.pl/datasheet/3/40/1/SRR1210A.pdf"
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/744393465100.pdf"
 			(at 165.1 81.28 0)
 			(effects
 				(font
@@ -10070,7 +10070,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power Inductor (SMD), 10 µH, 6.5 A, Shielded"
+		(property "Description" "Power Inductor (SMD),  10uH 10A, Shielded"
 			(at 149.86 66.04 0)
 			(effects
 				(font
@@ -10079,7 +10079,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Coilcraft"
+		(property "Manufacturer" "Wuerth"
 			(at 165.1 83.82 0)
 			(effects
 				(font
@@ -10090,7 +10090,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" " SRR1210A-100M "
+		(property "MPN" "744393465100"
 			(at 165.1 86.36 0)
 			(effects
 				(font
@@ -10101,7 +10101,7 @@
 				(hide yes)
 			)
 		)
-		(property "ISat" "6.5A"
+		(property "ISat" "9.9A"
 			(at 165.1 88.9 0)
 			(effects
 				(font
