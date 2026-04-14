@@ -189,6 +189,7 @@
       "track_widths": [
         0.0,
         0.25,
+        0.3,
         0.5
       ],
       "tuning_pattern_settings": {
@@ -503,7 +504,12 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "Default",
+        "pattern": "/channel_output_2/I2C"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
